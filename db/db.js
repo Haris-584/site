@@ -1,6 +1,6 @@
 export const bio = [
   "Hello there &#128075;",
-  "I'm Vinay Somawat, a Software Engineer at Biofourmis India with a specialization in JavaScript Applications. I have a passion for all things tech and consider myself a curious and enthusiastic developer.",
+  "I'm Muhammad Haris, a Software Engineer at Biofourmis India with a specialization in JavaScript Applications. I have a passion for all things tech and consider myself a curious and enthusiastic developer.",
   "Apart from coding, I love to read, listen to music, and travel.",
   "As a lifelong learner, I'm always seeking new knowledge and experiences to broaden my perspective and enhance my skills.",
   "Thanks for taking the time to learn a little about me!",
@@ -276,7 +276,7 @@ export const footer = [
   {
     label: "copyright-text",
     data: [
-      "Made with &hearts; by Vinay Somawat.",
+      "Made with &hearts; by Muhammad Haris.",
       "&copy; No Copyrights. Feel free to use this template.",
     ],
   },
