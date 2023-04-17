@@ -154,25 +154,25 @@ export const projects = {
 
 export const experience = [
   {
-    title: "Biofourmis India Pvt. Ltd.",
-    duration: "April 2022 - Present",
-    subtitle: "Software Engineer",
+    title: "CareCloud.",
+    duration: "Sept 2022 - Present",
+    subtitle: "DevOps Engineer",
     details: [
       "Currently involved in developing healthcare and digital therapeutics products."
     ],
-    tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
-    icon: "heartbeat",
+    tags: ["Azure DevOps", "Sonarqube", "Bootstrap", "Nodejs", "Jenkins"],
+    icon: "work",
   },
   {
-    title: "Novopay Solutions Pvt. Ltd.",
-    duration: "June 2020 - April 2022",
+    title: "APPINSNAP Pvt. Ltd.",
+    duration: "Nov 2021 - Sept 2022",
     subtitle: "Software Engineer",
     details: [
       "Successfully implemented Aadhaar Enabled Payment services, including Bio-metric eKYC, Cash Withdrawal, Balance Enquiry, Mini-Statements, and Money Transfer, achieving more than 20 story points in each sprint.",
       "Streamlined the process of loading money into the wallet by integrating QR Code, which reduced the time required by 50%. Also implemented Clevertap events to track user actions, Freshdesk ticketing service, and chat-bot services. Contributed to user onboarding, approval, and finance interfaces.",
       "Collaborated closely with cross-functional teams such as product, backend, android, and QA, ensuring timely delivery of product builds to meet deadlines",
     ],
-    tags: ["JavaScript", "Angular", "React", "Bootstrap", "Nodejs", "Jenkins"],
+    tags: ["Azure DevOps", "Angular", "React", "Bootstrap", "Nodejs", "Jenkins"],
     icon: "qrcode",
   },
   {
