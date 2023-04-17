@@ -167,21 +167,21 @@ export const experience = [
     title: "CareCloud.",
     duration: "Sept 2022 - Present",
     subtitle: "DevOps Engineer",
-    // details: [
-    //   // "Currently involved in developing healthcare and digital therapeutics products."
-    // ],
+    details: [
+    " Testing."
+    ],
     tags: ["Azure DevOps CICD", "Sonarqube Code Analysis", " IIS web server" , " .Net Containerization ", "Fixing Git Issues", "Release Isolation Implementation", "Site Relaibility Engineering tasks", "Pingdom", "Grafana", "Azure Application Insight", "Uptime Kuma", "Downtime Escalation"],
     icon: "work",
   },
   {
     title: "APPINSNAP Pvt. Ltd.",
     duration: "Nov 2021 - Sept 2022",
-    subtitle: "Software Engineer",
-    // details: [
-    //   // "Successfully implemented Aadhaar Enabled Payment services, including Bio-metric eKYC, Cash Withdrawal, Balance Enquiry, Mini-Statements, and Money Transfer, achieving more than 20 story points in each sprint.",
-    //   // "Streamlined the process of loading money into the wallet by integrating QR Code, which reduced the time required by 50%. Also implemented Clevertap events to track user actions, Freshdesk ticketing service, and chat-bot services. Contributed to user onboarding, approval, and finance interfaces.",
-    //   // "Collaborated closely with cross-functional teams such as product, backend, android, and QA, ensuring timely delivery of product builds to meet deadlines",
-    // ],
+    subtitle: "Associate DevOps Engineer",
+    details: [
+      "Testing.",
+      // "Streamlined the process of loading money into the wallet by integrating QR Code, which reduced the time required by 50%. Also implemented Clevertap events to track user actions, Freshdesk ticketing service, and chat-bot services. Contributed to user onboarding, approval, and finance interfaces.",
+      // "Collaborated closely with cross-functional teams such as product, backend, android, and QA, ensuring timely delivery of product builds to meet deadlines",
+    ],
     tags: ["Azure DevOps CICD", "PM2",  "Coodination with team", "Git issues", "MySQL", "SSMS", "Tomcat" ],
     icon: "qrcode",
   },
