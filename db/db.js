@@ -171,7 +171,7 @@ export const experience = [
     " Testing."
     ],
     tags: ["Azure DevOps CICD", "Sonarqube Code Analysis", " IIS web server" , " .Net Containerization ", "Fixing Git Issues", "Release Isolation Implementation", "Site Relaibility Engineering tasks", "Pingdom", "Grafana", "Azure Application Insight", "Uptime Kuma", "Downtime Escalation"],
-    icon: "work",
+    icon: "qrcode",
   },
   {
     title: "APPINSNAP Pvt. Ltd.",
@@ -186,6 +186,7 @@ export const experience = [
     icon: "qrcode",
   },
 ];
+
 
 export const education = [
   {
