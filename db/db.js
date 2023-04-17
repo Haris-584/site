@@ -153,17 +153,17 @@ export const projects = {
 };
 
 export const experience = [
-  // {
-  //   title: "Freelance DevOps Engineer",
-  //   duration: "May 2019 - June 2019",
-  //   subtitle: "SDE Intern",
-  //   details: [
-  //     "Contributed as a full-stack developer to provide technical support to the team",
-  //     "Designed and developed a comprehensive Web Application for social media management, starting from the ground up, to cater to customer needs.",
-  //   ],
-  //   tags: ["JavaScript", "Angular", "Bootstrap", "Java", "Spring Boot"],
-  //   icon: "group",
-  // },
+  {
+    title: "Freelance DevOps Engineer",
+    duration: "May 2019 - June 2019",
+    subtitle: "SDE Intern",
+    details: [
+      "Contributed as a full-stack developer to provide technical support to the team",
+      "Designed and developed a comprehensive Web Application for social media management, starting from the ground up, to cater to customer needs.",
+    ],
+    tags: ["JavaScript", "Angular", "Bootstrap", "Java", "Spring Boot"],
+    icon: "group",
+  },
   {
     title: "CareCloud.",
     duration: "Sept 2022 - Present",
@@ -232,10 +232,10 @@ export const footer = [
         text: "GitHub",
         link: "https://github.com/Haris-584",
       },
-      // {
-      //   text: "LeetCode",
-      //   link: "https://leetcode.com/somawatvinay/",
-      // },
+      {
+        text: "LeetCode",
+        link: "https://leetcode.com/somawatvinay/",
+      },
     ],
   },
   {
@@ -262,14 +262,14 @@ export const footer = [
         text: "Linkedin",
         link: "https://www.linkedin.com/in/muhammad-haris-454a92131/",
       },
-      // {
-      //   text: "Twitter",
-      //   link: "https://twitter.com/thesigmakid",
-      // },
-      // {
-      //   text: "Buy me a coffee",
-      //   link: "https://www.buymeacoffee.com/r194dME8y",
-      // },
+      {
+        text: "Twitter",
+        link: "https://twitter.com/thesigmakid",
+      },
+      {
+        text: "Buy me a coffee",
+        link: "https://www.buymeacoffee.com/r194dME8y",
+      },
     ],
   },
   {
@@ -281,9 +281,9 @@ export const footer = [
   },
 ];
 
-// const gitUserName = "vinaysomawat";
-// const mediumUserName = "vinaysomawat";
+const gitUserName = "vinaysomawat";
+const mediumUserName = "vinaysomawat";
 
-// export const URLs = {
-//   mediumURL: `https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@${mediumUserName}`,
-// };
+export const URLs = {
+  mediumURL: `https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@${mediumUserName}`,
+};
