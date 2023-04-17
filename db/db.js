@@ -190,34 +190,33 @@ export const experience = [
 
 export const education = [
   {
-    title: "Bachelors in Computer Science and Engineering",
+    title: "Master of Science in Computer Science",
     duration: "",
-    subtitle: "National Institute of Technology, Warangal",
+    subtitle: "COMSATS University Islamabad, Islamabad, Pakistan",
     details: [
-      "I successfully qualified GATE-2020, demonstrating my aptitude and expertise in the field.",
-      "As an active competitive programmer, I have achieved a CodeChef rating of 1841*, showcasing my skills in solving complex programming problems.",
-      "My GitHub projects have earned over 1k stars and forks, a testament to my ability to create high-quality and impactful code.",
+      "2019 - 2021",
     ],
     tags: [
-      "Data Structures & Algorithms",
-      "Operating Systems",
-      "Database Management System",
-      "Computer Networks",
-      "Compiler Designing",
-      "Cloud Computing",
+      "Research Methodology in IT",
+      "Artificial Intelligence",
+      "Analysis of Algorithm",
+      "Theory of Computation",
+      "Machine Learning",
+      "Data Mining",
+      "Digital Image Processing",
+      "Semantic Web",
     ],
     icon: "graduation-cap",
   },
   {
-    title: "Class 11-12th in Science and Mathematics",
+    title: "Bachelor of Science in Computer Science ",
     duration: "",
-    subtitle: "Board of Secondary Education, Rajasthan",
+    subtitle: "Kohat University of Science and Technology, Kohat, Pakistan",
     details: [
-      "I have successfully qualified JEE Advanced, Main, and BITSAT, demonstrating my strong aptitude and skills in these highly competitive exams.",
-      "Additionally, I am proud to have achieved an exceptional 99.5 percentile in my Class 12th Boards Examinations, reflecting my dedication and hard work towards academic excellence.",
+      "2014 - 2018",
     ],
-    tags: ["Physics", "Chemistry", "Mathematics"],
-    icon: "book",
+    tags: ["CS Courses"],
+    icon: "graduation-cap",
   },
 ];
 
