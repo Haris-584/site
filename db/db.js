@@ -1,7 +1,6 @@
 export const bio = [
   "Hello there &#128075;",
-  "I'm Muhammad Haris, a Software Engineer at Biofourmis India with a specialization in JavaScript Applications. I have a passion for all things tech and consider myself a curious and enthusiastic developer.",
-  "Apart from coding, I love to read, listen to music, and travel.",
+  "I'm Muhammad Haris, a DevOps Engineer with a specialization in many DevOps tools and technologies.",
   "As a lifelong learner, I'm always seeking new knowledge and experiences to broaden my perspective and enhance my skills.",
   "Thanks for taking the time to learn a little about me!",
 ];
@@ -153,25 +152,25 @@ export const projects = {
 };
 
 export const experience = [
-  {
-    title: "Freelance DevOps Engineer",
-    duration: "May 2019 - June 2019",
-    subtitle: "SDE Intern",
-    details: [
-      "Contributed as a full-stack developer to provide technical support to the team",
-      "Designed and developed a comprehensive Web Application for social media management, starting from the ground up, to cater to customer needs.",
-    ],
-    tags: ["JavaScript", "Angular", "Bootstrap", "Java", "Spring Boot"],
-    icon: "group",
-  },
+  // {
+  //   title: "Freelance DevOps Engineer",
+  //   duration: "May 2019 - June 2019",
+  //   subtitle: "SDE Intern",
+  //   details: [
+  //     "Contributed as a full-stack developer to provide technical support to the team",
+  //     "Designed and developed a comprehensive Web Application for social media management, starting from the ground up, to cater to customer needs.",
+  //   ],
+  //   tags: ["JavaScript", "Angular", "Bootstrap", "Java", "Spring Boot"],
+  //   icon: "group",
+  // },
   {
     title: "CareCloud.",
     duration: "Sept 2022 - Present",
     subtitle: "DevOps Engineer",
     details: [
-      "Currently involved in developing healthcare and digital therapeutics products."
+      // "Currently involved in developing healthcare and digital therapeutics products."
     ],
-    tags: ["Azure DevOps", "Sonarqube", "Bootstrap", "Nodejs", "Jenkins"],
+    tags: ["Azure DevOps CICD", "Sonarqube Code Analysis", " IIS web server" , " .Net Containerization ", "Fixing Git Issues", "Release Isolation Implementation", "Site Relaibility Engineering tasks", "Pingdom", "Grafana", "Azure Application Insight", "Uptime Kuma", "Downtime Escalation"],
     icon: "work",
   },
   {
@@ -179,11 +178,11 @@ export const experience = [
     duration: "Nov 2021 - Sept 2022",
     subtitle: "Software Engineer",
     details: [
-      "Successfully implemented Aadhaar Enabled Payment services, including Bio-metric eKYC, Cash Withdrawal, Balance Enquiry, Mini-Statements, and Money Transfer, achieving more than 20 story points in each sprint.",
-      "Streamlined the process of loading money into the wallet by integrating QR Code, which reduced the time required by 50%. Also implemented Clevertap events to track user actions, Freshdesk ticketing service, and chat-bot services. Contributed to user onboarding, approval, and finance interfaces.",
-      "Collaborated closely with cross-functional teams such as product, backend, android, and QA, ensuring timely delivery of product builds to meet deadlines",
+      // "Successfully implemented Aadhaar Enabled Payment services, including Bio-metric eKYC, Cash Withdrawal, Balance Enquiry, Mini-Statements, and Money Transfer, achieving more than 20 story points in each sprint.",
+      // "Streamlined the process of loading money into the wallet by integrating QR Code, which reduced the time required by 50%. Also implemented Clevertap events to track user actions, Freshdesk ticketing service, and chat-bot services. Contributed to user onboarding, approval, and finance interfaces.",
+      // "Collaborated closely with cross-functional teams such as product, backend, android, and QA, ensuring timely delivery of product builds to meet deadlines",
     ],
-    tags: ["Azure DevOps", "Angular", "React", "Bootstrap", "Nodejs", "Jenkins"],
+    tags: ["Azure DevOps CICD", "PM2",  "Coodination with team", "Git issues", "MySQL", "SSMS", "Tomcat" ],
     icon: "qrcode",
   },
 ];
@@ -220,6 +219,33 @@ export const education = [
   },
 ];
 
+export const research = [
+  {
+    title: "paper one title",
+    duration: "",
+    subtitle: "COMSATS University Islamabad, Islamabad, Pakistan",
+    details: [
+      "2019 - 2021",
+    ],
+    tags: [
+      "Research Methodology in IT",
+      "Artificial Intelligence",
+      "Semantic Web",
+    ],
+    icon: "book",
+  },
+  {
+    title: "paper two title ",
+    duration: "",
+    subtitle: "Kohat University of Science and Technology, Kohat, Pakistan",
+    details: [
+      "2014 - 2018",
+    ],
+    tags: ["CS Courses"],
+    icon: "book",
+  },
+];
+
 export const footer = [
   {
     label: "Dev Profiles",
@@ -232,29 +258,29 @@ export const footer = [
         text: "GitHub",
         link: "https://github.com/Haris-584",
       },
-      {
-        text: "LeetCode",
-        link: "https://leetcode.com/somawatvinay/",
-      },
+      // {
+      //   text: "LeetCode",
+      //   link: "https://leetcode.com/somawatvinay/",
+      // },
     ],
   },
-  {
-    label: "Resources",
-    data: [
-      {
-        text: "Enable Dark/Light Mode",
-        func: "enableDarkMode()",
-      },
-      {
-        text: "Print this page",
-        func: "window.print()",
-      },
-      {
-        text: "Clone this page",
-        link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
-      },
-    ],
-  },
+  // {
+  //   label: "Resources",
+  //   data: [
+  //     {
+  //       text: "Enable Dark/Light Mode",
+  //       func: "enableDarkMode()",
+  //     },
+  //     {
+  //       text: "Print this page",
+  //       func: "window.print()",
+  //     },
+  //     {
+  //       text: "Clone this page",
+  //       link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
+  //     },
+  //   ],
+  // },
   {
     label: "Social Profiles",
     data: [
@@ -262,14 +288,14 @@ export const footer = [
         text: "Linkedin",
         link: "https://www.linkedin.com/in/muhammad-haris-454a92131/",
       },
-      {
-        text: "Twitter",
-        link: "https://twitter.com/thesigmakid",
-      },
-      {
-        text: "Buy me a coffee",
-        link: "https://www.buymeacoffee.com/r194dME8y",
-      },
+      // {
+      //   text: "Twitter",
+      //   link: "https://twitter.com/thesigmakid",
+      // },
+      // {
+      //   text: "Buy me a coffee",
+      //   link: "https://www.buymeacoffee.com/r194dME8y",
+      // },
     ],
   },
   {
