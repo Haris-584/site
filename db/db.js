@@ -308,7 +308,7 @@ export const footer = [
   },
 ];
 
-const gitUserName = "vinaysomawat";
+const gitUserName = "Haris-584";
 const mediumUserName = "vinaysomawat";
 
 export const URLs = {
