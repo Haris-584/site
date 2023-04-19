@@ -55,7 +55,7 @@ export const projects = {
     "*** All the projects I listed were completed during my college-level development journey. As for my work at the industry level, those projects are confidential and cannot be disclosed.",
   webProjects: [
     {
-      projectName: "Programming Diaries",
+      projectName: "SonarQube Integration for VGIT Services",
       image: "images/programmingdiaries.png",
       summary:
         "Developed a full stack blog application to provide content on techical topics across the internet with admin interface.",
@@ -63,7 +63,7 @@ export const projects = {
       techStack: ["Django", "SQLite", "Bootstrap", "JavaScript", "Heroku"],
     },
     {
-      projectName: "Find Your Bank",
+      projectName: "Azure App Service Auto Scaling",
       image: "images/findyourbank.png",
       summary:
         "Developed a React application to render a list of banks fetched from API. Filtered the banks based on queries from localstorage, marked favorites banks.",
@@ -89,7 +89,7 @@ export const projects = {
   ],
   softwareProjects: [
     {
-      projectName: "Pizza Ordering ChatBot",
+      projectName: "TalkEHR",
       image: "images/pizzaorderchatbot.png",
       summary:
         "ChatBot using Dialogflow, Firebase database which stores the chat data in the realtime database.",
@@ -97,7 +97,7 @@ export const projects = {
       techStack: ["Dailogflow", "Firebase"],
     },
     {
-      projectName: "WhatsApp-Bot",
+      projectName: "Web Services",
       image: "images/whatsappbot.jpg",
       summary:
         "Python script which helps to send messages to WhatsApp contacts automatically using selenium and web automation.",
@@ -105,7 +105,7 @@ export const projects = {
       techStack: ["Selenium", "Chrome Webdriver", "Python"],
     },
     {
-      projectName: "Bill Generator",
+      projectName: "Global Portal",
       image: "images/billgenerator.png",
       summary:
         "GUI to transfer data to excel sheets and generate bills on the local shops.",
