@@ -150,10 +150,31 @@ export const projects = {
     },
   ],
 };
-
 export const experience = [
   {
-    title: "Freelance DevOps Engineer",
+    title: "Biofourmis India Pvt. Ltd.",
+    duration: "April 2022 - Present",
+    subtitle: "Software Engineer",
+    details: [
+      "Currently involved in developing healthcare and digital therapeutics products."
+    ],
+    tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
+    icon: "heartbeat",
+  },
+  {
+    title: "Novopay Solutions Pvt. Ltd.",
+    duration: "June 2020 - April 2022",
+    subtitle: "Software Engineer",
+    details: [
+      "Successfully implemented Aadhaar Enabled Payment services, including Bio-metric eKYC, Cash Withdrawal, Balance Enquiry, Mini-Statements, and Money Transfer, achieving more than 20 story points in each sprint.",
+      "Streamlined the process of loading money into the wallet by integrating QR Code, which reduced the time required by 50%. Also implemented Clevertap events to track user actions, Freshdesk ticketing service, and chat-bot services. Contributed to user onboarding, approval, and finance interfaces.",
+      "Collaborated closely with cross-functional teams such as product, backend, android, and QA, ensuring timely delivery of product builds to meet deadlines",
+    ],
+    tags: ["JavaScript", "Angular", "React", "Bootstrap", "Nodejs", "Jenkins"],
+    icon: "qrcode",
+  },
+  {
+    title: "ThinkPedia LLP",
     duration: "May 2019 - June 2019",
     subtitle: "SDE Intern",
     details: [
@@ -163,89 +184,137 @@ export const experience = [
     tags: ["JavaScript", "Angular", "Bootstrap", "Java", "Spring Boot"],
     icon: "group",
   },
-  {
-    title: "CareCloud.",
-    duration: "Sept 2022 - Present",
-    subtitle: "DevOps Engineer",
-    details: [
-    " Testing."
-    ],
-    tags: ["Azure DevOps CICD", "Sonarqube Code Analysis", " IIS web server" , " .Net Containerization ", "Fixing Git Issues", "Release Isolation Implementation", "Site Relaibility Engineering tasks", "Pingdom", "Grafana", "Azure Application Insight", "Uptime Kuma", "Downtime Escalation"],
-    icon: "qrcode",
-  },
-  {
-    title: "APPINSNAP Pvt. Ltd.",
-    duration: "Nov 2021 - Sept 2022",
-    subtitle: "Associate DevOps Engineer",
-    details: [
-      "Testing.",
-      // "Streamlined the process of loading money into the wallet by integrating QR Code, which reduced the time required by 50%. Also implemented Clevertap events to track user actions, Freshdesk ticketing service, and chat-bot services. Contributed to user onboarding, approval, and finance interfaces.",
-      // "Collaborated closely with cross-functional teams such as product, backend, android, and QA, ensuring timely delivery of product builds to meet deadlines",
-    ],
-    tags: ["Azure DevOps CICD", "PM2",  "Coodination with team", "Git issues", "MySQL", "SSMS", "Tomcat" ],
-    icon: "qrcode",
-  },
 ];
-
 
 export const education = [
   {
-    title: "Master of Science in Computer Science",
+    title: "Bachelors in Computer Science and Engineering",
     duration: "",
-    subtitle: "COMSATS University Islamabad, Islamabad, Pakistan",
+    subtitle: "National Institute of Technology, Warangal",
     details: [
-      "2019 - 2021",
+      "I successfully qualified GATE-2020, demonstrating my aptitude and expertise in the field.",
+      "As an active competitive programmer, I have achieved a CodeChef rating of 1841*, showcasing my skills in solving complex programming problems.",
+      "My GitHub projects have earned over 1k stars and forks, a testament to my ability to create high-quality and impactful code.",
     ],
     tags: [
-      "Research Methodology in IT",
-      "Artificial Intelligence",
-      "Analysis of Algorithm",
-      "Theory of Computation",
-      "Machine Learning",
-      "Data Mining",
-      "Digital Image Processing",
-      "Semantic Web",
+      "Data Structures & Algorithms",
+      "Operating Systems",
+      "Database Management System",
+      "Computer Networks",
+      "Compiler Designing",
+      "Cloud Computing",
     ],
     icon: "graduation-cap",
   },
   {
-    title: "Bachelor of Science in Computer Science ",
+    title: "Class 11-12th in Science and Mathematics",
     duration: "",
-    subtitle: "Kohat University of Science and Technology, Kohat, Pakistan",
+    subtitle: "Board of Secondary Education, Rajasthan",
     details: [
-      "2014 - 2018",
+      "I have successfully qualified JEE Advanced, Main, and BITSAT, demonstrating my strong aptitude and skills in these highly competitive exams.",
+      "Additionally, I am proud to have achieved an exceptional 99.5 percentile in my Class 12th Boards Examinations, reflecting my dedication and hard work towards academic excellence.",
     ],
-    tags: ["CS Courses"],
-    icon: "graduation-cap",
+    tags: ["Physics", "Chemistry", "Mathematics"],
+    icon: "book",
   },
 ];
 
-export const research = [
-  {
-    title: "paper one title",
-    duration: "",
-    subtitle: "COMSATS University Islamabad, Islamabad, Pakistan",
-    details: [
-      "2019 - 2021",
-    ],
-    tags: [
-      "Research Methodology in IT",
-      "Artificial Intelligence",
-      "Semantic Web",
-    ],
-    icon: "book",
-  },
-  {
-    title: "paper two title ",
-    duration: "",
-    subtitle: "Kohat University of Science and Technology, Kohat, Pakistan",
-    details: [
-      "2014 - 2018",
-    ],
-    tags: ["CS Courses"],
-    icon: "book",
-  },
-];
+
+// export const experience = [
+//   {
+//     title: "Freelance DevOps Engineer",
+//     duration: "May 2019 - June 2019",
+//     subtitle: "SDE Intern",
+//     details: [
+//       "Contributed as a full-stack developer to provide technical support to the team",
+//       "Designed and developed a comprehensive Web Application for social media management, starting from the ground up, to cater to customer needs.",
+//     ],
+//     tags: ["JavaScript", "Angular", "Bootstrap", "Java", "Spring Boot"],
+//     icon: "group",
+//   },
+//   {
+//     title: "CareCloud.",
+//     duration: "Sept 2022 - Present",
+//     subtitle: "DevOps Engineer",
+//     details: [
+//     " Testing."
+//     ],
+//     tags: ["Azure DevOps CICD", "Sonarqube Code Analysis", " IIS web server" , " .Net Containerization ", "Fixing Git Issues", "Release Isolation Implementation", "Site Relaibility Engineering tasks", "Pingdom", "Grafana", "Azure Application Insight", "Uptime Kuma", "Downtime Escalation"],
+//     icon: "qrcode",
+//   },
+//   {
+//     title: "APPINSNAP Pvt. Ltd.",
+//     duration: "Nov 2021 - Sept 2022",
+//     subtitle: "Associate DevOps Engineer",
+//     details: [
+//       "Testing.",
+//       // "Streamlined the process of loading money into the wallet by integrating QR Code, which reduced the time required by 50%. Also implemented Clevertap events to track user actions, Freshdesk ticketing service, and chat-bot services. Contributed to user onboarding, approval, and finance interfaces.",
+//       // "Collaborated closely with cross-functional teams such as product, backend, android, and QA, ensuring timely delivery of product builds to meet deadlines",
+//     ],
+//     tags: ["Azure DevOps CICD", "PM2",  "Coodination with team", "Git issues", "MySQL", "SSMS", "Tomcat" ],
+//     icon: "qrcode",
+//   },
+// ];
+
+
+// export const education = [
+//   {
+//     title: "Master of Science in Computer Science",
+//     duration: "",
+//     subtitle: "COMSATS University Islamabad, Islamabad, Pakistan",
+//     details: [
+//       "2019 - 2021",
+//     ],
+//     tags: [
+//       "Research Methodology in IT",
+//       "Artificial Intelligence",
+//       "Analysis of Algorithm",
+//       "Theory of Computation",
+//       "Machine Learning",
+//       "Data Mining",
+//       "Digital Image Processing",
+//       "Semantic Web",
+//     ],
+//     icon: "graduation-cap",
+//   },
+//   {
+//     title: "Bachelor of Science in Computer Science ",
+//     duration: "",
+//     subtitle: "Kohat University of Science and Technology, Kohat, Pakistan",
+//     details: [
+//       "2014 - 2018",
+//     ],
+//     tags: ["CS Courses"],
+//     icon: "graduation-cap",
+//   },
+// ];
+
+// export const research = [
+//   {
+//     title: "paper one title",
+//     duration: "",
+//     subtitle: "COMSATS University Islamabad, Islamabad, Pakistan",
+//     details: [
+//       "2019 - 2021",
+//     ],
+//     tags: [
+//       "Research Methodology in IT",
+//       "Artificial Intelligence",
+//       "Semantic Web",
+//     ],
+//     icon: "book",
+//   },
+//   {
+//     title: "paper two title ",
+//     duration: "",
+//     subtitle: "Kohat University of Science and Technology, Kohat, Pakistan",
+//     details: [
+//       "2014 - 2018",
+//     ],
+//     tags: ["CS Courses"],
+//     icon: "book",
+//   },
+// ];
 
 export const footer = [
   {
