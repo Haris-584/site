@@ -194,7 +194,7 @@ export const experience = [
 export const education = [
   {
     title: "Masters of Science in Computer Science (MSCS)",
-    duration: "",
+    duration: "2019-2021",
     subtitle: "COMSATS University Islamabad, Islamabad Pakistan",
     details: [
       "CGPA: 3.41",
@@ -213,7 +213,7 @@ export const education = [
   },
   {
     title: "Bachelors of Science in Computer Science (BSCS)",
-    duration: "",
+    duration: "2014-2018",
     subtitle: "Kohat University of Science and Technology, Kohat Pakistan",
     details: [
       "CGPA: 3.45",
@@ -229,7 +229,7 @@ export const research = [
     duration: "2023",
     subtitle: "IEEE Access",
     details: [
-      " ",
+     // " ",
     ],
     tags: [
       "Muhammad Haris",
@@ -243,9 +243,15 @@ export const research = [
     duration: "2021",
     subtitle: "MDPI Forcasting",
     details: [
-      " ",
+     // " ",
     ],
-    tags: ["Hanan Butt, M Raheel Raza, M Javaid Ramzan, M Junaid Ali, M Haris"],
+    tags: [
+      "Hanan Butt", 
+      "M Raheel Raza", 
+      "M Javaid Ramzan", 
+      "M Junaid Ali", 
+      "M Haris"
+    ],
     icon: "book",
   },
   {
@@ -253,9 +259,14 @@ export const research = [
     duration: "2021",
     subtitle: "IEEE 26th International Conference on Automation and Computing (ICAC) ",
     details: [
-      " ",
+    //  " ",
     ],
-    tags: ["Rida Yaqoob, Sana, M Haris, Samadyar, Dr Munam Ali Shah"],
+    tags: [
+      "Rida Yaqoob ", 
+      "Sana, M Haris", 
+      "Samadyar", 
+      "Dr Munam Ali Shah",
+    ],
     icon: "book",
   },
 ];
