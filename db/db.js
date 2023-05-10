@@ -53,7 +53,8 @@ export const skills = [
 export const projects = {
   disclaimer:
     "*** All the projects I listed were completed during my college-level development journey. As for my work at the industry level, those projects are confidential and cannot be disclosed.",
-  webProjects: [
+ //carecloud projects
+    webProjects: [
     {
       projectName: "SonarQube Integration for VGIT Services",
       image: "images/programmingdiaries.png",
@@ -87,6 +88,7 @@ export const projects = {
       techStack: ["HTML", "Bootstrap", "JavaScript"],
     },
   ],
+  // appinsnap projects 
   softwareProjects: [
     {
       projectName: "Pizza Ordering ChatBot",
@@ -113,6 +115,7 @@ export const projects = {
       techStack: ["Tkinter", "Openxlpy", "Python"],
     },
   ],
+  //freelance projects
   androidProjects: [
     {
       projectName: "NITW-CSE",
@@ -131,6 +134,7 @@ export const projects = {
       techStack: ["JAVA", "XML", "Android"],
     },
   ],
+  // open source projects 
   freelanceProjects: [
     {
       projectName: "SnylloAir.com",
@@ -151,15 +155,16 @@ export const projects = {
   ],
 };
 
+
 export const experience = [
   {
     title: "Freelance DevOps Engineer.",
     duration: "March 2023 - Present",
     subtitle: "DevOps Engineer",
     details: [
-      "Currently involved in developing healthcare and digital therapeutics products."
+      "Currently working with Client remotely"
     ],
-    tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
+    tags: ["Azure DevOps", "Application Insight", "Yaml template", "R&D tasks", "QA & Staging Deployments"],
     icon: "heartbeat",
   },
   {
@@ -167,22 +172,21 @@ export const experience = [
     duration: "Sept 2022 - March 2023",
     subtitle: "DevOps Engineer",
     details: [
-      "Successfully implemented Aadhaar Enabled Payment services, including Bio-metric eKYC, Cash Withdrawal, Balance Enquiry, Mini-Statements, and Money Transfer, achieving more than 20 story points in each sprint.",
-      "Streamlined the process of loading money into the wallet by integrating QR Code, which reduced the time required by 50%. Also implemented Clevertap events to track user actions, Freshdesk ticketing service, and chat-bot services. Contributed to user onboarding, approval, and finance interfaces.",
-      "Collaborated closely with cross-functional teams such as product, backend, android, and QA, ensuring timely delivery of product builds to meet deadlines",
+      "Collaboration with Dev",
+      "CICD and Deployments",
     ],
-    tags: ["JavaScript", "Angular", "React", "Bootstrap", "Nodejs", "Jenkins"],
+    tags: ["Azure DevOps CICD", "Sonarqube Code Analysis", " IIS web server" , " .Net Containerization ", "Fixing Git Issues", "Release Isolation Implementation", "Site Relaibility Engineering tasks", "Pingdom", "Grafana", "Azure Application Insight", "Uptime Kuma", "Downtime Escalation"],
     icon: "qrcode",
   },
   {
     title: "APPINSNAP",
-    duration: "df 2019 - June 2019",
-    subtitle: "SDE Intern",
+    duration: "Nov 2021 - Sept 2022",
+    subtitle: "Associate DevOps Engineer",
     details: [
-      "Contributed as a full-stack developer to provide technical support to the team",
-      "Designed and developed a comprehensive Web Application for social media management, starting from the ground up, to cater to customer needs.",
+      "Collaboration with Dev",
+      "CICD and Deployments",
     ],
-    tags: ["JavaScript", "Angular", "Bootstrap", "Java", "Spring Boot"],
+    tags: ["Azure DevOps CICD", "PM2",  "Coodination with team", "Git issues", "MySQL", "SSMS", "Tomcat"],
     icon: "group",
   },
 ];
@@ -193,29 +197,28 @@ export const education = [
     duration: "",
     subtitle: "COMSATS University Islamabad, Islamabad Pakistan",
     details: [
-      "I successfully qualified GATE-2020, demonstrating my aptitude and expertise in the field.",
-      "As an active competitive programmer, I have achieved a CodeChef rating of 1841*, showcasing my skills in solving complex programming problems.",
-      "My GitHub projects have earned over 1k stars and forks, a testament to my ability to create high-quality and impactful code.",
+      "CGPA: 3.41",
     ],
     tags: [
-      "Data Structures & Algorithms",
-      "Operating Systems",
-      "Database Management System",
-      "Computer Networks",
-      "Compiler Designing",
-      "Cloud Computing",
+      "Research Methodology in IT",
+      "Artificial Intelligence",
+      "Analysis of Algorithm",
+      "Theory of Computation",
+      "Machine Learning",
+      "Data Mining",
+      "Digital Image Processing",
+      "Semantic Web",
     ],
     icon: "graduation-cap",
   },
   {
-    title: "Class 11-12th in Science and Mathematics",
+    title: "Bachelors of Science in Computer Science (BSCS)",
     duration: "",
-    subtitle: "Board of Secondary Education, Rajasthan",
+    subtitle: "Kohat University of Science and Technology, Kohat Pakistan",
     details: [
-      "I have successfully qualified JEE Advanced, Main, and BITSAT, demonstrating my strong aptitude and skills in these highly competitive exams.",
-      "Additionally, I am proud to have achieved an exceptional 99.5 percentile in my Class 12th Boards Examinations, reflecting my dedication and hard work towards academic excellence.",
+      "CGPA: 3.45",
     ],
-    tags: ["Physics", "Chemistry", "Mathematics"],
+    tags: ["CS Courses"],
     icon: "book",
   },
 ];
@@ -249,10 +252,10 @@ export const footer = [
         text: "Print this page",
         func: "window.print()",
       },
-      {
-        text: "Clone this page",
-        link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
-      },
+      // {
+      //   text: "Clone this page",
+      //   link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
+      // },
     ],
   },
   {
