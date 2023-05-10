@@ -4,6 +4,7 @@ import {
   URLs,
   projects,
   education,
+  research,
   experience,
   footer,
 } from "../db/db.js";
@@ -417,5 +418,6 @@ populateDisclaimer(disclaimer, "project-disclaimer");
 
 populateExp_Edu(experience, "experience");
 populateExp_Edu(education, "education");
+populateExp_Edu(research, "research");
 
 populateLinks(footer, "footer");
