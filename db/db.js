@@ -223,6 +223,38 @@ export const education = [
   },
 ];
 
+export const research = [
+  {
+    title: "Masters of Science in Computer Science (MSCS)",
+    duration: "",
+    subtitle: "COMSATS University Islamabad, Islamabad Pakistan",
+    details: [
+      "CGPA: 3.41",
+    ],
+    tags: [
+      "Research Methodology in IT",
+      "Artificial Intelligence",
+      "Analysis of Algorithm",
+      "Theory of Computation",
+      "Machine Learning",
+      "Data Mining",
+      "Digital Image Processing",
+      "Semantic Web",
+    ],
+    icon: "graduation-cap",
+  },
+  {
+    title: "Bachelors of Science in Computer Science (BSCS)",
+    duration: "",
+    subtitle: "Kohat University of Science and Technology, Kohat Pakistan",
+    details: [
+      "CGPA: 3.45",
+    ],
+    tags: ["CS Courses"],
+    icon: "book",
+  },
+];
+
 export const footer = [
   {
     label: "Dev Profiles",
