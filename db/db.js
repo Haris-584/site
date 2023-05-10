@@ -219,38 +219,43 @@ export const education = [
       "CGPA: 3.45",
     ],
     tags: ["CS Courses"],
-    icon: "book",
+    icon: "graduation-cap",
   },
 ];
 
 export const research = [
   {
-    title: "Masters of Science in Computer Science (MSCS)",
-    duration: "",
-    subtitle: "COMSATS University Islamabad, Islamabad Pakistan",
+    title: "Internet of Intelligent Vehicles (IOIV): An Intelligent VANET Based Computing via predictive modeling",
+    duration: "2023",
+    subtitle: "IEEE Access",
     details: [
-      "CGPA: 3.41",
+      " ",
     ],
     tags: [
-      "Research Methodology in IT",
-      "Artificial Intelligence",
-      "Analysis of Algorithm",
-      "Theory of Computation",
-      "Machine Learning",
-      "Data Mining",
-      "Digital Image Processing",
-      "Semantic Web",
+      "Muhammad Haris",
+      "Dr Munam Ali Shah",
+      "Dr Carsten Maple",
     ],
-    icon: "graduation-cap",
+    icon: "book",
   },
   {
-    title: "Bachelors of Science in Computer Science (BSCS)",
-    duration: "",
-    subtitle: "Kohat University of Science and Technology, Kohat Pakistan",
+    title: "Attention-Based CNN-RNN Arabic Text Recognition from Natural Scene Images",
+    duration: "2021",
+    subtitle: "MDPI Forcasting",
     details: [
-      "CGPA: 3.45",
+      " ",
     ],
-    tags: ["CS Courses"],
+    tags: ["Hanan Butt, M Raheel Raza, M Javaid Ramzan, M Junaid Ali, M Haris"],
+    icon: "book",
+  },
+  {
+    title: "The Price Scraping Bot Threat on E-commerce Store Using Custom XPATH Technique",
+    duration: "2021",
+    subtitle: "IEEE 26th International Conference on Automation and Computing (ICAC) ",
+    details: [
+      " ",
+    ],
+    tags: ["Rida Yaqoob, Sana, M Haris, Samadyar, Dr Munam Ali Shah"],
     icon: "book",
   },
 ];
