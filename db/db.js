@@ -61,11 +61,12 @@ export const projects = {
       summary:
         "Developed a full stack blog application to provide content on techical topics across the internet with admin interface.",
       techStack: ["TalkEHR", "WebEHR", "WebServices", "RPM", "TalkMD"],
-      summary:
-        "Developed a full stack blog application to provide ",
+    //  summary:
+    //    "Developed a full stack blog application to provide ",
     //  preview: "https://programmingdiaries.herokuapp.com/",
-      techStack: ["Azure DevOps", "IIS", "R&D", "Git Support", "Monitoring"],
+    //  techStack: ["Azure DevOps", "IIS", "R&D", "Git Support", "Monitoring"],
     },
+
     // {
     //   projectName: "Find Your Bank",
     //   image: "images/findyourbank.png",
@@ -231,9 +232,9 @@ export const research = [
     title: "Internet of Intelligent Vehicles (IOIV): An Intelligent VANET Based Computing via predictive modeling",
     duration: "2023",
     subtitle: "IEEE Access",
-    // details: [
-    //  // " ",
-    // ],
+    details: [
+      "IF:3.36 ",
+    ],
     tags: [
       "Muhammad Haris",
       "Dr Munam Ali Shah",
@@ -245,9 +246,9 @@ export const research = [
     title: "Attention-Based CNN-RNN Arabic Text Recognition from Natural Scene Images",
     duration: "2021",
     subtitle: "MDPI Forcasting",
-    // details: [
-    //  // " ",
-    // ],
+    details: [
+      "Collaborative work ",
+    ],
     tags: [
       "Hanan Butt", 
       "M Raheel Raza", 
@@ -261,9 +262,9 @@ export const research = [
     title: "The Price Scraping Bot Threat on E-commerce Store Using Custom XPATH Technique",
     duration: "2021",
     subtitle: "IEEE 26th International Conference on Automation and Computing (ICAC) ",
-    // details: [
-    // //  " ",
-    // ],
+    details: [
+      "Collaborative work ",
+    ],
     tags: [
       "Rida Yaqoob ", 
       "Sana, M Haris", 
