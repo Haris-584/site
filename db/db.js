@@ -76,7 +76,7 @@ export const skills = [
     title: "Databases",
     skillName: "DB Basic > MySQL, SQL Server SSMS",
     color: "6",
-    percentage: "70",
+    percentage: "50",
   },
 ];
 
@@ -206,8 +206,13 @@ export const experience = [
     duration: "Sept 2022 - March 2023",
     subtitle: "DevOps Engineer",
     details: [
-      "Collaboration with Dev",
-      "CICD and Deployments",
+      "CICD (.Net)",
+      "Continuous Monitoring/ Site Reliability Engineering - Monitoring via Pingdom, Grafana, Uptime Kuma, and Application Insight",
+      "IIS Web Servers",
+      "Git Support ",
+      "Staging and Production Releases",
+      "Release Isolation",
+      "Product Versioning"
     ],
     tags: ["Azure DevOps CICD", "Sonarqube Code Analysis", " IIS web server" , " .Net Containerization ", "Fixing Git Issues", "Release Isolation Implementation", "Site Relaibility Engineering tasks", "Pingdom", "Grafana", "Azure Application Insight", "Uptime Kuma", "Downtime Escalation"],
     icon: "qrcode",
@@ -217,8 +222,11 @@ export const experience = [
     duration: "Nov 2021 - Sept 2022",
     subtitle: "Associate DevOps Engineer",
     details: [
-      "Collaboration with Dev",
-      "CICD and Deployments",
+      "CICD (.Net, Android, ReactJS, NodeJS)",
+      "Manage NodeJS appplication server and PM2",
+      "IIS and Tomcate Web Servers",
+      "Git Support ",
+      "Staging Releases and Rollbacks",
     ],
     tags: ["Azure DevOps CICD", "PM2",  "Coodination with team", "Git issues", "MySQL", "SSMS", "Tomcat"],
     icon: "group",
