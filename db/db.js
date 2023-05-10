@@ -1,7 +1,6 @@
 export const bio = [
   "Hello there &#128075;",
-  "I'm Vinay Somawat, a Software Engineer at Biofourmis India with a specialization in JavaScript Applications. I have a passion for all things tech and consider myself a curious and enthusiastic developer.",
-  "Apart from coding, I love to read, listen to music, and travel.",
+  "I'm Muhammad Haris, a DevOps Engineer with a specialization in many DevOps tools and technologies.",
   "As a lifelong learner, I'm always seeking new knowledge and experiences to broaden my perspective and enhance my skills.",
   "Thanks for taking the time to learn a little about me!",
 ];
@@ -56,7 +55,7 @@ export const projects = {
     "*** All the projects I listed were completed during my college-level development journey. As for my work at the industry level, those projects are confidential and cannot be disclosed.",
   webProjects: [
     {
-      projectName: "Programming Diaries",
+      projectName: "SonarQube Integration for VGIT Services",
       image: "images/programmingdiaries.png",
       summary:
         "Developed a full stack blog application to provide content on techical topics across the internet with admin interface.",
@@ -154,9 +153,9 @@ export const projects = {
 
 export const experience = [
   {
-    title: "Biofourmis India Pvt. Ltd.",
-    duration: "April 2022 - Present",
-    subtitle: "Software Engineer",
+    title: "Freelance DevOps Engineer.",
+    duration: "March 2023 - Present",
+    subtitle: "DevOps Engineer",
     details: [
       "Currently involved in developing healthcare and digital therapeutics products."
     ],
@@ -164,9 +163,9 @@ export const experience = [
     icon: "heartbeat",
   },
   {
-    title: "Novopay Solutions Pvt. Ltd.",
-    duration: "June 2020 - April 2022",
-    subtitle: "Software Engineer",
+    title: "CareCloud.",
+    duration: "Sept 2022 - March 2023",
+    subtitle: "DevOps Engineer",
     details: [
       "Successfully implemented Aadhaar Enabled Payment services, including Bio-metric eKYC, Cash Withdrawal, Balance Enquiry, Mini-Statements, and Money Transfer, achieving more than 20 story points in each sprint.",
       "Streamlined the process of loading money into the wallet by integrating QR Code, which reduced the time required by 50%. Also implemented Clevertap events to track user actions, Freshdesk ticketing service, and chat-bot services. Contributed to user onboarding, approval, and finance interfaces.",
@@ -176,8 +175,8 @@ export const experience = [
     icon: "qrcode",
   },
   {
-    title: "ThinkPedia LLP",
-    duration: "May 2019 - June 2019",
+    title: "APPINSNAP",
+    duration: "df 2019 - June 2019",
     subtitle: "SDE Intern",
     details: [
       "Contributed as a full-stack developer to provide technical support to the team",
@@ -190,9 +189,9 @@ export const experience = [
 
 export const education = [
   {
-    title: "Bachelors in Computer Science and Engineering",
+    title: "Masters of Science in Computer Science (MSCS)",
     duration: "",
-    subtitle: "National Institute of Technology, Warangal",
+    subtitle: "COMSATS University Islamabad, Islamabad Pakistan",
     details: [
       "I successfully qualified GATE-2020, demonstrating my aptitude and expertise in the field.",
       "As an active competitive programmer, I have achieved a CodeChef rating of 1841*, showcasing my skills in solving complex programming problems.",
@@ -227,16 +226,16 @@ export const footer = [
     data: [
       {
         text: "Stackoverflow",
-        link: "https://stackoverflow.com/users/8461233/vinay-somawat",
+        link: "https://stackoverflow.com/users/8244628/muhammad-haris",
       },
       {
         text: "GitHub",
-        link: "https://github.com/vinaysomawat",
+        link: "https://github.com/Haris-584",
       },
-      {
-        text: "LeetCode",
-        link: "https://leetcode.com/somawatvinay/",
-      },
+      // {
+      //   text: "LeetCode",
+      //   link: "https://leetcode.com/somawatvinay/",
+      // },
     ],
   },
   {
@@ -261,28 +260,28 @@ export const footer = [
     data: [
       {
         text: "Linkedin",
-        link: "https://www.linkedin.com/in/vinaysomawat/",
+        link: "https://www.linkedin.com/in/muhammad-haris-454a92131/",
       },
-      {
-        text: "Twitter",
-        link: "https://twitter.com/thesigmakid",
-      },
-      {
-        text: "Buy me a coffee",
-        link: "https://www.buymeacoffee.com/r194dME8y",
-      },
+      // {
+      //   text: "Twitter",
+      //   link: "https://twitter.com/thesigmakid",
+      // },
+      // {
+      //   text: "Buy me a coffee",
+      //   link: "https://www.buymeacoffee.com/r194dME8y",
+      // },
     ],
   },
   {
     label: "copyright-text",
     data: [
-      "Made with &hearts; by Vinay Somawat.",
+      "Made with &hearts; by Muhammad Haris.",
       "&copy; No Copyrights. Feel free to use this template.",
     ],
   },
 ];
 
-const gitUserName = "vinaysomawat";
+const gitUserName = "Haris-584";
 const mediumUserName = "vinaysomawat";
 
 export const URLs = {
