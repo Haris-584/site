@@ -115,6 +115,7 @@ function populateProjects(items, id) {
   divResumeContentLeft.className = "resume-content";
   divResumeContentLeft.id = "left-div";
   divResumeContentLeft.append(img);
+  divResumeContentLeft.append(h4);
 
   let divResumeContentRight = document.createElement("div");
   divResumeContentRight.className = "resume-content";

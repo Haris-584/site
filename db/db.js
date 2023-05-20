@@ -85,9 +85,9 @@ export const projects = {
     "*** All the projects I listed were completed during my college-level development journey. As for my work at the industry level, those projects are confidential and cannot be disclosed.",
  //carecloud projects
     webProjects: [
-    {
+    { 
       projectName: "Work and Responsibilities at CareCloud",
-      //image: "images/programmingdiaries.png",
+      image: "images/pizzaorderchatbot.png",
       summary:
         "Developed a full stack blog application to provide content on techical topics across the internet with admin interface.",
       techStack: ["TalkEHR", "WebEHR", "WebServices", "RPM", "TalkMD"],
