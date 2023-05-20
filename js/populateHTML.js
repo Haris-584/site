@@ -151,7 +151,7 @@ function populateProjects(items, id) {
     h4.innerHTML = items[i].projectName;
     a.href = items[i].preview;
 
-    img.src = items[i].image;
+    img.src = items[i].image ? items[i].image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQikpu-qxWYB7ouBGgf4PIdDlQaCNIS4htUw&usqp=CAU"   ;
 
     p.innerHTML = items[i].summary;
 
