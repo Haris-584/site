@@ -86,33 +86,11 @@ export const projects = {
  //carecloud projects
     webProjects: [
     { 
-      projectName: "Work and Responsibilities at CareCloud",
-      // image: "images/pizzaorderchatbot.png",
+      projectName: "TalkEHR, WebEHR, WebServices, RPM, TalkMD, MedSR, Global Portal, TalkPHR",
       summary:
-        "Developed a full stack blog application to provide content on techical topics across the internet with admin interface.",
-      techStack: ["TalkEHR", "WebEHR", "WebServices", "RPM", "TalkMD"],
-    //  summary:
-    //    "Developed a full stack blog application to provide ",
-    //  preview: "https://programmingdiaries.herokuapp.com/",
-    //  techStack: ["Azure DevOps", "IIS", "R&D", "Git Support", "Monitoring"],
+        "CareCloud, Inc. is a publicly traded American healthcare information technology company that provides services, to healthcare providers and hospitals. The Company maintains its headquarters in Somerset, New Jersey, and employs approximately 4,000 workers worldwide.",
+      techStack: [".NET Core", "Angular", "Automation", "Support", "VCS"],
     },
-
-    // {
-    //   projectName: "Find Your Bank",
-    //   image: "images/findyourbank.png",
-    //   summary:
-    //     "Developed a React application to render a list of banks fetched from API. Filtered the banks based on queries from localstorage, marked favorites banks.",
-    //   preview: "https://clever-fermi-0d5d76.netlify.app",
-    //   techStack: ["Reactjs", "Bootstrap", "JavaScript", "Netlify"],
-    // },
-    // {
-    //   projectName: "Web Portfolio",
-    //   image: "images/portfolio.png",
-    //   summary:
-    //     "Web Portfolio to showcase acadmics, skills, projects and contact details in better manner.",
-    //   preview: "https://github.com/vinaysomawat/Travographer-Portal",
-    //   techStack: ["HTML", "Bootstrap", "JavaScript"],
-    // },
     // {
     //   projectName: "Resume Builder",
     //   image: "images/resume-builder.png",
@@ -125,23 +103,23 @@ export const projects = {
   // appinsnap projects 
   softwareProjects: [
     {
-      projectName: "Pizza Ordering ChatBot",
-      image: "images/pizzaorderchatbot.png",
+      projectName: "RideShare, Office Automation",
+      image: "images/npm.png",
       summary:
-        "ChatBot using Dialogflow, Firebase database which stores the chat data in the realtime database.",
-      preview: "https://github.com/vinaysomawat/Pizza-Ordering-ChatBot",
-      techStack: ["Dailogflow", "Firebase"],
+        "NodeJS and ReactJS projects DevOps Support.",
+      //preview: "https://github.com/vinaysomawat/Pizza-Ordering-ChatBot",
+      techStack: ["NodeJS", "Linux", "PM2", "VCS"],
     },
     {
-      projectName: "WhatsApp-Bot",
-      image: "images/whatsappbot.jpg",
+      projectName: "JS Bank Projects, KPK Challan System, DHA, Frontier Corps, Management Systems",
+      image: "images/dotnet.jpg",
       summary:
         "Python script which helps to send messages to WhatsApp contacts automatically using selenium and web automation.",
       preview: "https://github.com/vinaysomawat/WhatsApp-Bot",
       techStack: ["Selenium", "Chrome Webdriver", "Python"],
     },
     {
-      projectName: "Bill Generator",
+      projectName: "Android",
       image: "images/billgenerator.png",
       summary:
         "GUI to transfer data to excel sheets and generate bills on the local shops.",
@@ -356,10 +334,10 @@ export const footer = [
         text: "Linkedin",
         link: "https://www.linkedin.com/in/muhammad-haris-454a92131/",
       },
-      // {
-      //   text: "Twitter",
-      //   link: "https://twitter.com/thesigmakid",
-      // },
+      {
+        text: "Download Resume",
+        link: "https://drive.google.com/file/d/1uLAUiG3pX-rPxwHBZbuKw7rvSamPmLLy/view?usp=sharing",
+      },
       // {
       //   text: "Buy me a coffee",
       //   link: "https://www.buymeacoffee.com/r194dME8y",
