@@ -89,7 +89,7 @@ export const projects = {
       projectName: "TalkEHR, WebEHR, WebServices, RPM, TalkMD, MedSR, Global Portal, TalkPHR",
       summary:
         "CareCloud, Inc. is a publicly traded American healthcare information technology company that provides services, to healthcare providers and hospitals. The Company maintains its headquarters in Somerset, New Jersey, and employs approximately 4,000 workers worldwide.",
-      techStack: [".NET Core", "Angular", "Automation", "Support", "VCS"],
+      techStack: [".NET Core", "Angular", "CICD-Automation", "IIS", "Support", "VCS"],
     },
     // {
     //   projectName: "Resume Builder",
@@ -112,57 +112,56 @@ export const projects = {
     },
     {
       projectName: "JS Bank Projects, KPK Challan System, DHA, Frontier Corps, Management Systems",
-      image: "images/dotnet.jpg",
+      image: "images/dotnet.png",
       summary:
-        "Python script which helps to send messages to WhatsApp contacts automatically using selenium and web automation.",
-      preview: "https://github.com/vinaysomawat/WhatsApp-Bot",
-      techStack: ["Selenium", "Chrome Webdriver", "Python"],
+        "DevOps Support for Various Projects.",
+      //preview: "https://github.com/vinaysomawat/WhatsApp-Bot",
+      techStack: [".NET Core", "CICD", "IIS", "Support", "VCS"],
     },
     {
-      projectName: "Android",
-      image: "images/billgenerator.png",
+      projectName: "KPK Challan",
+      image: "images/android.png",
       summary:
-        "GUI to transfer data to excel sheets and generate bills on the local shops.",
-      preview: "https://github.com/vinaysomawat/Bill-Generator",
-      techStack: ["Tkinter", "Openxlpy", "Python"],
+        "Android Projects.",
+      //preview: "https://github.com/vinaysomawat/Bill-Generator",
+      techStack: ["Android", "Git", "VCS"],
     },
   ],
   //freelance projects
   androidProjects: [
     {
-      projectName: "NITW-CSE",
-      image: "images/nitwcse.jpg",
+      projectName: "Client 1",
+      image: "images/remotework.png",
       summary:
-        "The Application display details of Department courses, reference books, research, publication and faculty profile.",
-      preview: "https://github.com/vinaysomawat/NITW-CSE",
-      techStack: ["JAVA", "XML", "Android"],
+        "3 hours support work.",
+      //preview: "https://github.com/vinaysomawat/NITW-CSE",
+      techStack: ["Azure DevOps", "Azure Application Insight", "R&D Task", "QA and Staging Deployments", "Documentation"],
     },
     {
-      projectName: "CareerHigh-App",
-      image: "images/carrerhigh.png",
+      projectName: "Client 2",
+      image: "images/remotework.png",
       summary:
-        "The Application display the webpages of website careerhigh.in in android devices.",
-      preview: "https://github.com/vinaysomawat/CareerHigh-Android",
-      techStack: ["JAVA", "XML", "Android"],
+        "3 hours support work.",
+      techStack: ["Azure DevOps", "YAML pipelines", "Proxy Deployments support", "Yaml customization"],
     },
   ],
   // open source projects 
   freelanceProjects: [
     {
-      projectName: "SnylloAir.com",
-      image: "images/snylloair.png",
+      projectName: "Jenkins-SonarQube-Docker",
+      //image: "images/snylloair.png",
       summary:
-        "Developed a company website to showcase the purpose, services and products provided by the company to audience.",
-      preview: "https://www.snylloair.com/",
-      techStack: ["Bootstrap", "JavaScript", "AWS-S3"],
+        "Implement Jenkins sonarqube and docker project.",
+      //
+      //preview: "https://www.snylloair.com/",
+      techStack: ["3 EC2 on AWS", "Configurations", "Github webhooks", "Project workflow"],
     },
     {
-      projectName: "Delivery+",
-      image: "images/AM-Logo-.png",
-      summary: "Android Application to display website in android devices.",
-      preview:
-        "https://play.google.com/store/apps/details?id=com.americanmarket.americanmarketandroid",
-      techStack: ["Android", "JAVA", "Play Store"],
+      projectName: "GitHub Action-Docker",
+      image: "images/githubactions.png",
+      summary: "Github action pipeline and create/push docker image to dockerhub.",
+      //preview: "https://play.google.com/store/apps/details?id=com.americanmarket.americanmarketandroid",
+      techStack: ["Github Actions", "Docker", "YAML"],
     },
   ],
 };
