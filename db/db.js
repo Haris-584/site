@@ -82,7 +82,7 @@ export const skills = [
 
 export const projects = {
   disclaimer:
-    "*** All the projects I listed were completed during my college-level development journey. As for my work at the industry level, those projects are confidential and cannot be disclosed.",
+    "*** As for my work at the industry level, those projects are confidential and more details cannot be disclosed.",
  //carecloud projects
     webProjects: [
     { 
@@ -133,8 +133,7 @@ export const projects = {
       projectName: "Client 1",
       image: "images/remotework.png",
       summary:
-        "3 hours support work.",
-      //preview: "https://github.com/vinaysomawat/NITW-CSE",
+        "> 3 hours support work. > Sprint Tickets Completion > App Service AutoScaling R&D and Implemetation > Azure DevOps integration with MS Team and Slack"  ,
       techStack: ["Azure DevOps", "Azure Application Insight", "R&D Task", "QA and Staging Deployments", "Documentation"],
     },
     {
@@ -142,6 +141,7 @@ export const projects = {
       image: "images/remotework.png",
       summary:
         "3 hours support work.",
+  
       techStack: ["Azure DevOps", "YAML pipelines", "Proxy Deployments support", "Yaml customization"],
     },
   ],
