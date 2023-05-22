@@ -291,6 +291,71 @@ export const research = [
   },
 ];
 
+export const certification = [
+  {
+    title: "Docker Training course for absolute beginner",
+    duration: "2023",
+    subtitle: "KodeKloud",
+    details: [
+      "Docker essiential Knowledge",
+    ],
+    // tags: [
+    //   "Muhammad Haris",
+    //   "Dr Munam Ali Shah",
+    //   "Dr Carsten Maple",
+    // ],
+    icon: "book",
+  },
+  {
+    title: "Git for Beginners",
+    duration: "2022",
+    subtitle: "KodeKloud",
+    details: [
+      "Git essiential Knowledge",
+    ],
+    // tags: [
+    //   "Hanan Butt", 
+    //   "M Raheel Raza", 
+    //   "M Javaid Ramzan", 
+    //   "M Junaid Ali", 
+    //   "M Haris"
+    // ],
+    icon: "book",
+  },
+  {
+    title: "Machine Learning",
+    duration: "2020",
+    subtitle: "Coursera",
+    details: [
+      "Course work requirement ",
+    ],
+    // tags: [
+    //   "Rida Yaqoob ", 
+    //   "Sana", 
+    //   "M Haris", 
+    //   "Samadyar", 
+    //   "Dr Munam Ali Shah",
+    // ],
+    icon: "book",
+  },
+  {
+    title: "English Proficiency Certificate",
+    duration: "2022",
+    subtitle: "COMSATS University Islamabad ",
+    details: [
+      "Issued after Masters Degree ",
+    ],
+    // tags: [
+    //   "Rida Yaqoob ", 
+    //   "Sana", 
+    //   "M Haris", 
+    //   "Samadyar", 
+    //   "Dr Munam Ali Shah",
+    // ],
+    icon: "book",
+  },
+];
+
 export const footer = [
   {
     label: "Dev Profiles",

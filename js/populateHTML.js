@@ -6,6 +6,7 @@ import {
   education,
   research,
   experience,
+  certification,
   footer,
 } from "../db/db.js";
 
@@ -420,5 +421,6 @@ populateDisclaimer(disclaimer, "project-disclaimer");
 populateExp_Edu(experience, "experience");
 populateExp_Edu(education, "education");
 populateExp_Edu(research, "research");
+populateExp_Edu(certification, "certification");
 
 populateLinks(footer, "footer");
