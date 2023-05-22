@@ -489,6 +489,6 @@ populateDisclaimer(disclaimer, "project-disclaimer");
 populateExp_Edu(experience, "experience");
 populateExp_Edu(education, "education");
 populateExp_Edu(research, "research");
-populateCourse_Cert(certification, "certification");
+populateExp_Edu(certification, "certification");
 
 populateLinks(footer, "footer");
