@@ -299,11 +299,10 @@ export const certification = [
     details: [
       "Docker essiential Knowledge",
     ],
-    // tags: [
-    //   "Muhammad Haris",
-    //   "Dr Munam Ali Shah",
-    //   "Dr Carsten Maple",
-    // ],
+    tags: [
+      "Docker",
+      "Commands",
+    ],
     icon: "book",
   },
   {
@@ -313,13 +312,11 @@ export const certification = [
     details: [
       "Git essiential Knowledge",
     ],
-    // tags: [
-    //   "Hanan Butt", 
-    //   "M Raheel Raza", 
-    //   "M Javaid Ramzan", 
-    //   "M Junaid Ali", 
-    //   "M Haris"
-    // ],
+    tags: [
+      "Git", 
+      "VCS", 
+      "Release Isolation", 
+    ],
     icon: "book",
   },
   {
@@ -329,13 +326,10 @@ export const certification = [
     details: [
       "Course work requirement ",
     ],
-    // tags: [
-    //   "Rida Yaqoob ", 
-    //   "Sana", 
-    //   "M Haris", 
-    //   "Samadyar", 
-    //   "Dr Munam Ali Shah",
-    // ],
+    tags: [
+      "ML ", 
+      "Algorithms", 
+    ],
     icon: "book",
   },
   {
@@ -345,13 +339,9 @@ export const certification = [
     details: [
       "Issued after Masters Degree ",
     ],
-    // tags: [
-    //   "Rida Yaqoob ", 
-    //   "Sana", 
-    //   "M Haris", 
-    //   "Samadyar", 
-    //   "Dr Munam Ali Shah",
-    // ],
+    tags: [
+      "Certificate ", 
+    ],
     icon: "book",
   },
 ];
