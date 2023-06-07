@@ -128,23 +128,23 @@ export const projects = {
     },
   ],
   //freelance projects
-  androidProjects: [
-    {
-      projectName: "Client 1",
-      image: "images/remotework.png",
-      summary:
-        "> 3 hours support work. > Sprint Tickets Completion > App Service AutoScaling R&D and Implemetation > Azure DevOps integration with MS Team and Slack"  ,
-      techStack: ["Azure DevOps", "Azure Application Insight", "R&D Task", "QA and Staging Deployments", "Documentation"],
-    },
-    {
-      projectName: "Client 2",
-      image: "images/remotework.png",
-      summary:
-        "3 hours support work.",
+  // androidProjects: [
+  //   {
+  //     projectName: "Client 1",
+  //     image: "images/remotework.png",
+  //     summary:
+  //       "> 3 hours support work. > Sprint Tickets Completion > App Service AutoScaling R&D and Implemetation > Azure DevOps integration with MS Team and Slack"  ,
+  //     techStack: ["Azure DevOps", "Azure Application Insight", "R&D Task", "QA and Staging Deployments", "Documentation"],
+  //   },
+  //   {
+  //     projectName: "Client 2",
+  //     image: "images/remotework.png",
+  //     summary:
+  //       "3 hours support work.",
   
-      techStack: ["Azure DevOps", "YAML pipelines", "Proxy Deployments support", "Yaml customization"],
-    },
-  ],
+  //     techStack: ["Azure DevOps", "YAML pipelines", "Proxy Deployments support", "Yaml customization"],
+  //   },
+  // ],
   // open source projects 
   freelanceProjects: [
     {
@@ -168,16 +168,16 @@ export const projects = {
 
 
 export const experience = [
-  {
-    title: "Freelance DevOps Engineer.",
-    duration: "March 2023 - Present",
-    subtitle: "DevOps Engineer",
-    details: [
-      "Currently working with Client remotely"
-    ],
-    tags: ["Azure DevOps", "Application Insight", "Yaml template", "R&D tasks", "QA & Staging Deployments"],
-    icon: "heartbeat",
-  },
+  // {
+  //   title: "Freelance DevOps Engineer.",
+  //   duration: "March 2023 - Present",
+  //   subtitle: "DevOps Engineer",
+  //   details: [
+  //     "Currently working with Client remotely"
+  //   ],
+  //   tags: ["Azure DevOps", "Application Insight", "Yaml template", "R&D tasks", "QA & Staging Deployments"],
+  //   icon: "heartbeat",
+  // },
   {
     title: "CareCloud.",
     duration: "Sept 2022 - March 2023",
