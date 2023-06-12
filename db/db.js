@@ -168,16 +168,16 @@ export const projects = {
 
 
 export const experience = [
-  // {
-  //   title: "Freelance DevOps Engineer.",
-  //   duration: "March 2023 - Present",
-  //   subtitle: "DevOps Engineer",
-  //   details: [
-  //     "Currently working with Client remotely"
-  //   ],
-  //   tags: ["Azure DevOps", "Application Insight", "Yaml template", "R&D tasks", "QA & Staging Deployments"],
-  //   icon: "heartbeat",
-  // },
+  {
+    title: "Freelance DevOps Engineer.",
+    duration: "March 2023 - Present",
+    subtitle: "DevOps Engineer",
+    details: [
+      "Currently working with Client remotely"
+    ],
+    tags: ["Azure DevOps", "Application Insight", "Yaml template", "R&D tasks", "QA & Staging Deployments"],
+    icon: "heartbeat",
+  },
   {
     title: "CareCloud.",
     duration: "Sept 2022 - March 2023",
