@@ -131,16 +131,18 @@ export const projects = {
   androidProjects: [
     {
       projectName: "Client 1",
+      duration: "March 2023 - May 2023",
       image: "images/remotework.png",
       summary:
-        "> 3 hours support work. > Sprint Tickets Completion > App Service AutoScaling R&D and Implemetation > Azure DevOps integration with MS Team and Slack"  ,
+        "> Sprint Tickets Completion > App Service AutoScaling R&D and Implemetation > Azure DevOps integration with MS Team and Slack"  ,
       techStack: ["Azure DevOps", "Azure Application Insight", "R&D Task", "QA and Staging Deployments", "Documentation"],
     },
     {
       projectName: "Client 2",
+      duration: "March 2023 - April 2023",
       image: "images/remotework.png",
       summary:
-        "3 hours support work.",
+        "Task Based.",
   
       techStack: ["Azure DevOps", "YAML pipelines", "Proxy Deployments support", "Yaml customization"],
     },
@@ -163,6 +165,13 @@ export const projects = {
       //preview: "https://play.google.com/store/apps/details?id=com.americanmarket.americanmarketandroid",
       techStack: ["Github Actions", "Docker", "YAML"],
     },
+    {
+      projectName: "Ansible Configuration Management",
+      image: "images/githubactions.png",
+      summary: "Ansible Control Machine setup, Configuration management on both linux and windows.",
+      //preview: "https://play.google.com/store/apps/details?id=com.americanmarket.americanmarketandroid",
+      techStack: ["Ansible", "Configuration Management", "IAC"],
+    },
   ],
 };
 
@@ -180,7 +189,7 @@ export const experience = [
   // },
   {
     title: "CareCloud.",
-    duration: "Sept 2022 - March 2023",
+    duration: "Sept 2022 - Current",
     subtitle: "DevOps Engineer",
     details: [
       "CICD (.Net)",
