@@ -128,23 +128,23 @@ export const projects = {
     },
   ],
   //freelance projects
-  // androidProjects: [
-  //   {
-  //     projectName: "Client 1",
-  //     image: "images/remotework.png",
-  //     summary:
-  //       "> 3 hours support work. > Sprint Tickets Completion > App Service AutoScaling R&D and Implemetation > Azure DevOps integration with MS Team and Slack"  ,
-  //     techStack: ["Azure DevOps", "Azure Application Insight", "R&D Task", "QA and Staging Deployments", "Documentation"],
-  //   },
-  //   {
-  //     projectName: "Client 2",
-  //     image: "images/remotework.png",
-  //     summary:
-  //       "3 hours support work.",
+  androidProjects: [
+    {
+      projectName: "Client 1",
+      image: "images/remotework.png",
+      summary:
+        "> 3 hours support work. > Sprint Tickets Completion > App Service AutoScaling R&D and Implemetation > Azure DevOps integration with MS Team and Slack"  ,
+      techStack: ["Azure DevOps", "Azure Application Insight", "R&D Task", "QA and Staging Deployments", "Documentation"],
+    },
+    {
+      projectName: "Client 2",
+      image: "images/remotework.png",
+      summary:
+        "3 hours support work.",
   
-  //     techStack: ["Azure DevOps", "YAML pipelines", "Proxy Deployments support", "Yaml customization"],
-  //   },
-  // ],
+      techStack: ["Azure DevOps", "YAML pipelines", "Proxy Deployments support", "Yaml customization"],
+    },
+  ],
   // open source projects 
   freelanceProjects: [
     {
