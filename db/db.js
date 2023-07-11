@@ -89,7 +89,7 @@ export const projects = {
       projectName: "TalkEHR, WebEHR, WebServices, RPM, TalkMD, MedSR, Global Portal, TalkPHR",
       summary:
         "CareCloud, Inc. is a publicly traded American healthcare information technology company that provides services, to healthcare providers and hospitals. The Company maintains its headquarters in Somerset, New Jersey, and employs approximately 4,000 workers worldwide.",
-      techStack: [".NET Core", "Angular", "CICD-Automation", "IIS", "Support", "VCS"],
+      techStack: [".NET Core", "Angular", "CICD-Automation", "IIS", "Support", "VCS", "Deployments", " Sonarqube"," Smartbear"],
     },
     // {
     //   projectName: "Resume Builder",
@@ -167,7 +167,7 @@ export const projects = {
     },
     {
       projectName: "Ansible Configuration Management",
-      image: "images/githubactions.png",
+      image: "images/ansible.png",
       summary: "Ansible Control Machine setup, Configuration management on both linux and windows.",
       //preview: "https://play.google.com/store/apps/details?id=com.americanmarket.americanmarketandroid",
       techStack: ["Ansible", "Configuration Management", "IAC"],
