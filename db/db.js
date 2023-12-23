@@ -205,7 +205,7 @@ export const experience = [
   },
   {
     title: "APPINSNAP",
-    duration: "Nov 2021 - Sept 2022",
+    duration: "Nov 2020 - Sept 2022",
     subtitle: "Associate DevOps Engineer",
     details: [
       "CICD (.Net, Android, ReactJS, NodeJS)",
