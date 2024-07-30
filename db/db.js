@@ -7,314 +7,367 @@ export const bio = [
 
 export const skills = [
   {
-    title: "Languages",
-    skillName: "JavaScript, TypeScript",
+    title: "Verison Control",
+    skillName: "VCS",
+    skillSet:"Git, Github, Azure Repos",
     color: "1",
     percentage: "80",
   },
   {
-    title: "Frameworks/Libraries",
-    skillName: "Angular, Rxjs, Ngxs",
+    title: "CICD",
+    skillName: "CICD",
+    skillSet:"Azure DevOps, Github Actions, Jenkins ",
     color: "6",
     percentage: "70",
   },
   {
-    title: "Design",
-    skillName: "HTML, Bootstrap, Tailwind",
+    title: "Webservers",
+    skillName: "WebServers",
+    skillSet:"IIS, Nginx, Xampp",
     color: "4",
     percentage: "70",
   },
   {
-    title: "Version Control",
-    skillName: "GitHub, JIRA, Bitbucket",
+    title: "K8s",
+    skillName: "K8s",
+    skillSet:"Kubernetes ",
     color: "7",
+    percentage: "40",
+  },
+  {
+    title: "Azure",
+    skillName: "Azure",
+    skillSet:"DevOps, VMs , App Monitor, App Service",
+    color: "3",
     percentage: "70",
   },
   {
-    title: "Tools",
-    skillName: "Postman, Chrome DevTools",
+    title: "Containerization",
+    skillName: "Containers",
+    skillSet:"Docker ",
+    color: "6",
+    percentage: "60",
+  },
+  {
+    title: "AWS",
+    skillName: "AWS Basics knowledge",
+    skillSet:"EC2, IAM, AutoScaling, Elastic BeanStalk, CodeCommit, CloudWatch",
+    color: "1",
+    percentage: "70",
+  },
+  {
+    title: "monitoring",
+    skillName: "Monitoring ",
+    skillSet:"Pingdom, Prometheues & Grafana, Application Insight",
     color: "3",
     percentage: "80",
   },
   {
-    title: "Analytics",
-    skillName: "CleverTap, Countly",
+    title: "GCP",
+    skillName: "GCP",
+    skillSet:" Compute Engine, App Engine",
     color: "5",
+    percentage: "70",
+  },
+
+  
+  {
+    title: "Databases",
+    skillName: "DB Basic",
+    skillSet:"MySQL, SQL Server SSMS",
+    color: "6",
     percentage: "50",
   },
   {
-    title: "Editor",
-    skillName: "VS Code",
-    color: "6",
+    title: "scrum",
+    skillName: "Scrum ",
+    skillSet:"Azure Boards, JIRA",
+    color: "7",
     percentage: "70",
+  },
+  {
+    title: "codeanalysis",
+    skillName: "Code Analysis",
+    skillSet:"SonarQube",
+    color: "5",
+    percentage: "60",
   },
 ];
 
 export const projects = {
   disclaimer:
-    "*** All the projects I listed were completed during my college-level development journey. As for my work at the industry level, those projects are confidential and cannot be disclosed.",
-  webProjects: [
-    {
-      projectName: "SonarQube Integration for VGIT Services",
-      image: "images/programmingdiaries.png",
+    "*** As for my work at the industry level, those projects are confidential and more details cannot be disclosed.",
+ //carecloud projects
+    webProjects: [
+    { 
+      projectName: "TalkEHR, WebEHR, WebServices, RPM, TalkMD, MedSR, Global Portal, TalkPHR",
       summary:
-        "Developed a full stack blog application to provide content on techical topics across the internet with admin interface.",
-      preview: "https://programmingdiaries.herokuapp.com/",
-      techStack: ["Django", "SQLite", "Bootstrap", "JavaScript", "Heroku"],
+        "CareCloud, Inc. is a publicly traded American healthcare information technology company that provides services, to healthcare providers and hospitals. The Company maintains its headquarters in Somerset, New Jersey, and employs approximately 4,000 workers worldwide.",
+      techStack: [".NET Core", "Angular", "CICD-Automation", "IIS", "Support", "VCS", "Deployments", " Sonarqube"," Smartbear"],
     },
-    {
-      projectName: "Azure App Service Auto Scaling",
-      image: "images/findyourbank.png",
-      summary:
-        "Developed a React application to render a list of banks fetched from API. Filtered the banks based on queries from localstorage, marked favorites banks.",
-      preview: "https://clever-fermi-0d5d76.netlify.app",
-      techStack: ["Reactjs", "Bootstrap", "JavaScript", "Netlify"],
-    },
-    {
-      projectName: "Web Portfolio",
-      image: "images/portfolio.png",
-      summary:
-        "Web Portfolio to showcase acadmics, skills, projects and contact details in better manner.",
-      preview: "https://github.com/vinaysomawat/Travographer-Portal",
-      techStack: ["HTML", "Bootstrap", "JavaScript"],
-    },
-    {
-      projectName: "Resume Builder",
-      image: "images/resume-builder.png",
-      summary:
-        "Browser based editor to build and download Resumes in a customizable templates.",
-      preview: "https://vinaysomawat.github.io/Resume-Builder",
-      techStack: ["HTML", "Bootstrap", "JavaScript"],
-    },
+    // {
+    //   projectName: "Resume Builder",
+    //   image: "images/resume-builder.png",
+    //   summary:
+    //     "Browser based editor to build and download Resumes in a customizable templates.",
+    //   preview: "https://vinaysomawat.github.io/Resume-Builder",
+    //   techStack: ["HTML", "Bootstrap", "JavaScript"],
+    // },
   ],
+  // appinsnap projects 
   softwareProjects: [
     {
-      projectName: "TalkEHR",
-      image: "images/pizzaorderchatbot.png",
+      projectName: "RideShare, Office Automation",
+      image: "images/npm.png",
       summary:
-        "ChatBot using Dialogflow, Firebase database which stores the chat data in the realtime database.",
-      preview: "https://github.com/vinaysomawat/Pizza-Ordering-ChatBot",
-      techStack: ["Dailogflow", "Firebase"],
+        "NodeJS and ReactJS projects DevOps Support.",
+      //preview: "https://github.com/vinaysomawat/Pizza-Ordering-ChatBot",
+      techStack: ["NodeJS", "Linux", "PM2", "VCS"],
     },
     {
-      projectName: "Web Services",
-      image: "images/whatsappbot.jpg",
+      projectName: "JS Bank Projects, KPK Challan System, DHA, Frontier Corps, Management Systems",
+      image: "images/dotnet.png",
       summary:
-        "Python script which helps to send messages to WhatsApp contacts automatically using selenium and web automation.",
-      preview: "https://github.com/vinaysomawat/WhatsApp-Bot",
-      techStack: ["Selenium", "Chrome Webdriver", "Python"],
+        "DevOps Support for Various Projects.",
+      //preview: "https://github.com/vinaysomawat/WhatsApp-Bot",
+      techStack: [".NET Core", "CICD", "IIS", "Support", "VCS"],
     },
     {
-      projectName: "Global Portal",
-      image: "images/billgenerator.png",
+      projectName: "KPK Challan",
+      image: "images/android.png",
       summary:
-        "GUI to transfer data to excel sheets and generate bills on the local shops.",
-      preview: "https://github.com/vinaysomawat/Bill-Generator",
-      techStack: ["Tkinter", "Openxlpy", "Python"],
+        "Android Projects.",
+      //preview: "https://github.com/vinaysomawat/Bill-Generator",
+      techStack: ["Android", "Git", "VCS"],
     },
   ],
+  //freelance projects
   androidProjects: [
     {
-      projectName: "NITW-CSE",
-      image: "images/nitwcse.jpg",
+      projectName: "Client 1",
+      duration: "March 2023 - May 2023",
+      image: "images/remotework.png",
       summary:
-        "The Application display details of Department courses, reference books, research, publication and faculty profile.",
-      preview: "https://github.com/vinaysomawat/NITW-CSE",
-      techStack: ["JAVA", "XML", "Android"],
+        "> Sprint Tickets Completion > App Service AutoScaling R&D and Implemetation > Azure DevOps integration with MS Team and Slack"  ,
+      techStack: ["Azure DevOps", "Azure Application Insight", "R&D Task", "QA and Staging Deployments", "Documentation"],
     },
     {
-      projectName: "CareerHigh-App",
-      image: "images/carrerhigh.png",
+      projectName: "Client 2",
+      duration: "March 2023 - April 2023",
+      image: "images/remotework.png",
       summary:
-        "The Application display the webpages of website careerhigh.in in android devices.",
-      preview: "https://github.com/vinaysomawat/CareerHigh-Android",
-      techStack: ["JAVA", "XML", "Android"],
+        "Task Based.",
+  
+      techStack: ["Azure DevOps", "YAML pipelines", "Proxy Deployments support", "Yaml customization"],
     },
   ],
+  // open source projects 
   freelanceProjects: [
     {
-      projectName: "SnylloAir.com",
-      image: "images/snylloair.png",
+      projectName: "Jenkins-SonarQube-Docker",
+      //image: "images/snylloair.png",
       summary:
-        "Developed a company website to showcase the purpose, services and products provided by the company to audience.",
-      preview: "https://www.snylloair.com/",
-      techStack: ["Bootstrap", "JavaScript", "AWS-S3"],
+        "Implement Jenkins sonarqube and docker project.",
+      //
+      //preview: "https://www.snylloair.com/",
+      techStack: ["3 EC2 on AWS", "Configurations", "Github webhooks", "Project workflow"],
     },
     {
-      projectName: "Delivery+",
-      image: "images/AM-Logo-.png",
-      summary: "Android Application to display website in android devices.",
-      preview:
-        "https://play.google.com/store/apps/details?id=com.americanmarket.americanmarketandroid",
-      techStack: ["Android", "JAVA", "Play Store"],
+      projectName: "GitHub Action-Docker",
+      image: "images/githubactions.png",
+      summary: "Github action pipeline and create/push docker image to dockerhub.",
+      //preview: "https://play.google.com/store/apps/details?id=com.americanmarket.americanmarketandroid",
+      techStack: ["Github Actions", "Docker", "YAML"],
+    },
+    {
+      projectName: "Ansible Configuration Management",
+      image: "images/ansible.png",
+      summary: "Ansible Control Machine setup, Configuration management on both linux and windows.",
+      //preview: "https://play.google.com/store/apps/details?id=com.americanmarket.americanmarketandroid",
+      techStack: ["Ansible", "Configuration Management", "IAC"],
     },
   ],
 };
+
+
 export const experience = [
+  // {
+  //   title: "Freelance DevOps Engineer.",
+  //   duration: "March 2023 - Present",
+  //   subtitle: "DevOps Engineer",
+  //   details: [
+  //     "Currently working with Client remotely"
+  //   ],
+  //   tags: ["Azure DevOps", "Application Insight", "Yaml template", "R&D tasks", "QA & Staging Deployments"],
+  //   icon: "heartbeat",
+  // },
   {
-    title: "Biofourmis India Pvt. Ltd.",
-    duration: "April 2022 - Present",
-    subtitle: "Software Engineer",
+    title: "CareCloud.",
+    duration: "Sept 2022 - Current",
+    subtitle: "DevOps Engineer",
     details: [
-      "Currently involved in developing healthcare and digital therapeutics products."
+      "CICD (.Net)",
+      "Continuous Monitoring/ Site Reliability Engineering - Monitoring via Pingdom, Grafana, Uptime Kuma, and Application Insight",
+      "IIS Web Servers",
+      "Git Support ",
+      "Staging and Production Releases",
+      "Release Isolation",
+      "Product Versioning"
     ],
-    tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
-    icon: "heartbeat",
-  },
-  {
-    title: "Novopay Solutions Pvt. Ltd.",
-    duration: "June 2020 - April 2022",
-    subtitle: "Software Engineer",
-    details: [
-      "Successfully implemented Aadhaar Enabled Payment services, including Bio-metric eKYC, Cash Withdrawal, Balance Enquiry, Mini-Statements, and Money Transfer, achieving more than 20 story points in each sprint.",
-      "Streamlined the process of loading money into the wallet by integrating QR Code, which reduced the time required by 50%. Also implemented Clevertap events to track user actions, Freshdesk ticketing service, and chat-bot services. Contributed to user onboarding, approval, and finance interfaces.",
-      "Collaborated closely with cross-functional teams such as product, backend, android, and QA, ensuring timely delivery of product builds to meet deadlines",
-    ],
-    tags: ["JavaScript", "Angular", "React", "Bootstrap", "Nodejs", "Jenkins"],
+    tags: ["Azure DevOps CICD", "Sonarqube Code Analysis", " IIS web server" , " .Net Containerization ", "Fixing Git Issues", "Release Isolation Implementation", "Site Relaibility Engineering tasks", "Pingdom", "Grafana", "Azure Application Insight", "Uptime Kuma", "Downtime Escalation"],
     icon: "qrcode",
   },
   {
-    title: "ThinkPedia LLP",
-    duration: "May 2019 - June 2019",
-    subtitle: "SDE Intern",
+    title: "APPINSNAP",
+    duration: "Nov 2020 - Sept 2022",
+    subtitle: "Associate DevOps Engineer",
     details: [
-      "Contributed as a full-stack developer to provide technical support to the team",
-      "Designed and developed a comprehensive Web Application for social media management, starting from the ground up, to cater to customer needs.",
+      "CICD (.Net, Android, ReactJS, NodeJS)",
+      "Manage NodeJS appplication server and PM2",
+      "IIS and Tomcate Web Servers",
+      "Git Support ",
+      "Staging Releases and Rollbacks",
     ],
-    tags: ["JavaScript", "Angular", "Bootstrap", "Java", "Spring Boot"],
+    tags: ["Azure DevOps CICD", "PM2",  "Coodination with team", "Git issues", "MySQL", "SSMS", "Tomcat"],
     icon: "group",
   },
 ];
 
 export const education = [
   {
-    title: "Bachelors in Computer Science and Engineering",
-    duration: "",
-    subtitle: "National Institute of Technology, Warangal",
+    title: "Masters of Science in Computer Science (MSCS)",
+    duration: "2019-2021",
+    subtitle: "COMSATS University Islamabad, Islamabad Pakistan",
     details: [
-      "I successfully qualified GATE-2020, demonstrating my aptitude and expertise in the field.",
-      "As an active competitive programmer, I have achieved a CodeChef rating of 1841*, showcasing my skills in solving complex programming problems.",
-      "My GitHub projects have earned over 1k stars and forks, a testament to my ability to create high-quality and impactful code.",
+      "CGPA: 3.41",
     ],
     tags: [
-      "Data Structures & Algorithms",
-      "Operating Systems",
-      "Database Management System",
-      "Computer Networks",
-      "Compiler Designing",
-      "Cloud Computing",
+      "Research Methodology in IT",
+      "Artificial Intelligence",
+      "Analysis of Algorithm",
+      "Theory of Computation",
+      "Machine Learning",
+      "Data Mining",
+      "Digital Image Processing",
+      "Semantic Web",
     ],
     icon: "graduation-cap",
   },
   {
-    title: "Class 11-12th in Science and Mathematics",
-    duration: "",
-    subtitle: "Board of Secondary Education, Rajasthan",
+    title: "Bachelors of Science in Computer Science (BSCS)",
+    duration: "2014-2018",
+    subtitle: "Kohat University of Science and Technology, Kohat Pakistan",
     details: [
-      "I have successfully qualified JEE Advanced, Main, and BITSAT, demonstrating my strong aptitude and skills in these highly competitive exams.",
-      "Additionally, I am proud to have achieved an exceptional 99.5 percentile in my Class 12th Boards Examinations, reflecting my dedication and hard work towards academic excellence.",
+      "CGPA: 3.45",
     ],
-    tags: ["Physics", "Chemistry", "Mathematics"],
+    tags: ["CS Courses"],
+    icon: "graduation-cap",
+  },
+];
+
+export const research = [
+  {
+    title: "Internet of Intelligent Vehicles (IOIV): An Intelligent VANET Based Computing via predictive modeling",
+    duration: "2023",
+    subtitle: "IEEE Access",
+    details: [
+      "IF:3.36 ",
+    ],
+    tags: [
+      "Muhammad Haris",
+      "Dr Munam Ali Shah",
+      "Dr Carsten Maple",
+    ],
+    icon: "book",
+  },
+  {
+    title: "Attention-Based CNN-RNN Arabic Text Recognition from Natural Scene Images",
+    duration: "2021",
+    subtitle: "MDPI Forcasting",
+    details: [
+      "Collaborative work ",
+    ],
+    tags: [
+      "Hanan Butt", 
+      "M Raheel Raza", 
+      "M Javaid Ramzan", 
+      "M Junaid Ali", 
+      "M Haris"
+    ],
+    icon: "book",
+  },
+  {
+    title: "The Price Scraping Bot Threat on E-commerce Store Using Custom XPATH Technique",
+    duration: "2021",
+    subtitle: "IEEE 26th International Conference on Automation and Computing (ICAC) ",
+    details: [
+      "Collaborative work ",
+    ],
+    tags: [
+      "Rida Yaqoob ", 
+      "Sana", 
+      "M Haris", 
+      "Samadyar", 
+      "Dr Munam Ali Shah",
+    ],
     icon: "book",
   },
 ];
 
-
-// export const experience = [
-//   {
-//     title: "Freelance DevOps Engineer",
-//     duration: "May 2019 - June 2019",
-//     subtitle: "SDE Intern",
-//     details: [
-//       "Contributed as a full-stack developer to provide technical support to the team",
-//       "Designed and developed a comprehensive Web Application for social media management, starting from the ground up, to cater to customer needs.",
-//     ],
-//     tags: ["JavaScript", "Angular", "Bootstrap", "Java", "Spring Boot"],
-//     icon: "group",
-//   },
-//   {
-//     title: "CareCloud.",
-//     duration: "Sept 2022 - Present",
-//     subtitle: "DevOps Engineer",
-//     details: [
-//     " Testing."
-//     ],
-//     tags: ["Azure DevOps CICD", "Sonarqube Code Analysis", " IIS web server" , " .Net Containerization ", "Fixing Git Issues", "Release Isolation Implementation", "Site Relaibility Engineering tasks", "Pingdom", "Grafana", "Azure Application Insight", "Uptime Kuma", "Downtime Escalation"],
-//     icon: "qrcode",
-//   },
-//   {
-//     title: "APPINSNAP Pvt. Ltd.",
-//     duration: "Nov 2021 - Sept 2022",
-//     subtitle: "Associate DevOps Engineer",
-//     details: [
-//       "Testing.",
-//       // "Streamlined the process of loading money into the wallet by integrating QR Code, which reduced the time required by 50%. Also implemented Clevertap events to track user actions, Freshdesk ticketing service, and chat-bot services. Contributed to user onboarding, approval, and finance interfaces.",
-//       // "Collaborated closely with cross-functional teams such as product, backend, android, and QA, ensuring timely delivery of product builds to meet deadlines",
-//     ],
-//     tags: ["Azure DevOps CICD", "PM2",  "Coodination with team", "Git issues", "MySQL", "SSMS", "Tomcat" ],
-//     icon: "qrcode",
-//   },
-// ];
-
-
-// export const education = [
-//   {
-//     title: "Master of Science in Computer Science",
-//     duration: "",
-//     subtitle: "COMSATS University Islamabad, Islamabad, Pakistan",
-//     details: [
-//       "2019 - 2021",
-//     ],
-//     tags: [
-//       "Research Methodology in IT",
-//       "Artificial Intelligence",
-//       "Analysis of Algorithm",
-//       "Theory of Computation",
-//       "Machine Learning",
-//       "Data Mining",
-//       "Digital Image Processing",
-//       "Semantic Web",
-//     ],
-//     icon: "graduation-cap",
-//   },
-//   {
-//     title: "Bachelor of Science in Computer Science ",
-//     duration: "",
-//     subtitle: "Kohat University of Science and Technology, Kohat, Pakistan",
-//     details: [
-//       "2014 - 2018",
-//     ],
-//     tags: ["CS Courses"],
-//     icon: "graduation-cap",
-//   },
-// ];
-
-// export const research = [
-//   {
-//     title: "paper one title",
-//     duration: "",
-//     subtitle: "COMSATS University Islamabad, Islamabad, Pakistan",
-//     details: [
-//       "2019 - 2021",
-//     ],
-//     tags: [
-//       "Research Methodology in IT",
-//       "Artificial Intelligence",
-//       "Semantic Web",
-//     ],
-//     icon: "book",
-//   },
-//   {
-//     title: "paper two title ",
-//     duration: "",
-//     subtitle: "Kohat University of Science and Technology, Kohat, Pakistan",
-//     details: [
-//       "2014 - 2018",
-//     ],
-//     tags: ["CS Courses"],
-//     icon: "book",
-//   },
-// ];
+export const certification = [
+  {
+    title: "Docker Training course for absolute beginner",
+    duration: "2023",
+    subtitle: "KodeKloud",
+    details: [
+      "Docker essiential Knowledge",
+    ],
+    tags: [
+      "Docker",
+      "Commands",
+    ],
+    icon: "book",
+  },
+  {
+    title: "Git for Beginners",
+    duration: "2022",
+    subtitle: "KodeKloud",
+    details: [
+      "Git essiential Knowledge",
+    ],
+    tags: [
+      "Git", 
+      "VCS", 
+      "Release Isolation", 
+    ],
+    icon: "book",
+  },
+  {
+    title: "Machine Learning",
+    duration: "2020",
+    subtitle: "Coursera",
+    details: [
+      "Course work requirement ",
+    ],
+    tags: [
+      "ML ", 
+      "Algorithms", 
+    ],
+    icon: "book",
+  },
+  {
+    title: "English Proficiency Certificate",
+    duration: "2022",
+    subtitle: "COMSATS University Islamabad ",
+    details: [
+      "Issued after Masters Degree ",
+    ],
+    tags: [
+      "Certificate ", 
+    ],
+    icon: "book",
+  },
+];
 
 export const footer = [
   {
@@ -334,23 +387,23 @@ export const footer = [
       // },
     ],
   },
-  // {
-  //   label: "Resources",
-  //   data: [
-  //     {
-  //       text: "Enable Dark/Light Mode",
-  //       func: "enableDarkMode()",
-  //     },
-  //     {
-  //       text: "Print this page",
-  //       func: "window.print()",
-  //     },
-  //     {
-  //       text: "Clone this page",
-  //       link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
-  //     },
-  //   ],
-  // },
+  {
+    label: "Resources",
+    data: [
+      {
+        text: "Enable Dark/Light Mode",
+        func: "enableDarkMode()",
+      },
+      {
+        text: "Print this page",
+        func: "window.print()",
+      },
+      // {
+      //   text: "Clone this page",
+      //   link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
+      // },
+    ],
+  },
   {
     label: "Social Profiles",
     data: [
@@ -358,10 +411,10 @@ export const footer = [
         text: "Linkedin",
         link: "https://www.linkedin.com/in/muhammad-haris-454a92131/",
       },
-      // {
-      //   text: "Twitter",
-      //   link: "https://twitter.com/thesigmakid",
-      // },
+      {
+        text: "Download Resume",
+        link: "https://drive.google.com/file/d/1uLAUiG3pX-rPxwHBZbuKw7rvSamPmLLy/view?usp=sharing",
+      },
       // {
       //   text: "Buy me a coffee",
       //   link: "https://www.buymeacoffee.com/r194dME8y",
@@ -372,7 +425,7 @@ export const footer = [
     label: "copyright-text",
     data: [
       "Made with &hearts; by Muhammad Haris.",
-      // "&copy; No Copyrights. Feel free to use this template.",
+   //   "&copy; No Copyrights. Feel free to use this template.",
     ],
   },
 ];

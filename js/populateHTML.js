@@ -4,7 +4,9 @@ import {
   URLs,
   projects,
   education,
+  research,
   experience,
+  certification,
   footer,
 } from "../db/db.js";
 
@@ -68,24 +70,23 @@ function populateBio(items, id) {
 
 function populateSkills(items, id) {
   const skillsTag = document.getElementById(id);
-  items.forEach(({ skillName, color, percentage }) => {
-    const h3 = getElement("h3", null);
+  items.forEach(({ skillName, skillSet }) => {
+    const h3 = getElement("h3", "stackName");
     h3.innerHTML = skillName;
 
-    const divProgress = getElement("div", "progress");
-    const divProgressBar = getElement("div", `progress-bar color-${color}`);
-    divProgressBar.style = `width: ${percentage}%`;
-    divProgress.append(divProgressBar);
+    const h4 = getElement("h4", "skillSet");
+    h4.innerHTML = skillSet;
 
-    const divProgressWrap = getElement("div", "progress-wrap");
-    divProgressWrap.append(h3, divProgress);
+    const divContent = getElement("div", "content");
+    divContent.append(h3, h4);
 
-    const divAnimateBox = getElement("div", "col-md-6 animate-box");
-    divAnimateBox.append(divProgressWrap);
+    const divCard = getElement("div", "skill-card");
+    divCard.append(divContent);
 
-    skillsTag.append(divAnimateBox);
+    skillsTag.append(divCard);
   });
 }
+
 
 /**
  * Populates projects to the HTML page.
@@ -114,6 +115,7 @@ function populateProjects(items, id) {
   divResumeContentLeft.className = "resume-content";
   divResumeContentLeft.id = "left-div";
   divResumeContentLeft.append(img);
+  divResumeContentLeft.append(h4);
 
   let divResumeContentRight = document.createElement("div");
   divResumeContentRight.className = "resume-content";
@@ -149,7 +151,7 @@ function populateProjects(items, id) {
     h4.innerHTML = items[i].projectName;
     a.href = items[i].preview;
 
-    img.src = items[i].image;
+    img.src = items[i].image ? items[i].image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQikpu-qxWYB7ouBGgf4PIdDlQaCNIS4htUw&usqp=CAU"   ;
 
     p.innerHTML = items[i].summary;
 
@@ -325,6 +327,74 @@ function populateExp_Edu(items, id) {
 
   mainContainer.append(article);
 }
+function populateCourse_Cert(items, id) {
+  let mainContainer = document.getElementById(id);
+
+  for (let i = 0; i < items.length; i++) {
+    let spanTimelineSublabel = document.createElement("span");
+    spanTimelineSublabel.className = "timeline-sublabel";
+    spanTimelineSublabel.innerHTML = items[i].subtitle;
+
+    let spanh2 = document.createElement("span");
+    spanh2.innerHTML = items[i].duration;
+
+    let h2TimelineLabel = document.createElement("h2");
+    h2TimelineLabel.innerHTML = items[i].title;
+    h2TimelineLabel.append(spanh2);
+
+    let divTimelineLabel = document.createElement("div");
+    divTimelineLabel.className = "timeline-label";
+    divTimelineLabel.append(h2TimelineLabel);
+    divTimelineLabel.append(spanTimelineSublabel);
+
+    for (let j = 0; j < items[i].details.length; j++) {
+      let pTimelineText = document.createElement("p");
+      pTimelineText.className = "timeline-text";
+      pTimelineText.innerHTML = "&blacksquare; " + items[i].details[j];
+      divTimelineLabel.append(pTimelineText);
+    }
+
+    let divTags = document.createElement("div");
+    for (let j = 0; j < items[i].tags.length; j++) {
+      let spanTags = document.createElement("span");
+      spanTags.className = "badge badge-secondary";
+      spanTags.innerHTML = items[i].tags[j];
+      divTags.append(spanTags);
+    }
+    divTimelineLabel.append(divTags);
+
+    let iFa = document.createElement("i");
+    iFa.className = "fa fa-" + items[i].icon;
+
+    let divTimelineIcon = document.createElement("div");
+    divTimelineIcon.className = "timeline-icon color-2";
+    divTimelineIcon.append(iFa);
+
+    let divTimelineEntryInner = document.createElement("div");
+    divTimelineEntryInner.className = "timeline-entry-inner";
+    divTimelineEntryInner.append(divTimelineIcon);
+    divTimelineEntryInner.append(divTimelineLabel);
+
+    let article = document.createElement("article");
+    article.className = "timeline-entry animate-box";
+    article.append(divTimelineEntryInner);
+
+    mainContainer.append(article);
+  }
+
+  let divTimelineIcon = document.createElement("div");
+  divTimelineIcon.className = "timeline-icon color-2";
+
+  let divTimelineEntryInner = document.createElement("div");
+  divTimelineEntryInner.className = "timeline-entry-inner";
+  divTimelineEntryInner.append(divTimelineIcon);
+
+  let article = document.createElement("article");
+  article.className = "timeline-entry begin animate-box";
+  article.append(divTimelineEntryInner);
+
+  mainContainer.append(article);
+}
 
 /**
  * Populate links in the specified footer section with provided data.
@@ -417,5 +487,7 @@ populateDisclaimer(disclaimer, "project-disclaimer");
 
 populateExp_Edu(experience, "experience");
 populateExp_Edu(education, "education");
+populateExp_Edu(research, "research");
+populateExp_Edu(certification, "certification");
 
 populateLinks(footer, "footer");

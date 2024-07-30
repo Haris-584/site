@@ -553,6 +553,8 @@ body.offcanvas .colorlib-nav-toggle {
 .colorlib-profile,
 .colorlib-projects,
 .colorlib-education,
+.colorlib-research,
+.colorlib-certification,
 .colorlib-blogs,
 .colorlib-work,
 .colorlib-about,
@@ -577,6 +579,8 @@ body.offcanvas .colorlib-nav-toggle {
 	.colorlib-profile,
 	.colorlib-projects,
 	.colorlib-education,
+	.colorlib-research,
+	.colorlib-certification,
 	.colorlib-work,
 	.colorlib-about,
 	.colorlib-installation,
@@ -709,7 +713,7 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 .project-card {
-	height: 150px;
+	/* height: 150px; */
 }
 
 .project-info {
@@ -2070,8 +2074,8 @@ ul {
 	background: #f9bf3f;
 	font-size: 14px;
 	padding-left: 0px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	/* padding-top: 10px;
+	padding-bottom: 10px; */
 }
 
 .submenu li {
@@ -2092,7 +2096,8 @@ ul {
 	display: block;
 	text-decoration: none;
 	color: #d9d9d9;
-	padding: 12px;
+	/* padding: 12px; */
+	padding-right: 5px;
 	padding-left: 10px;
 	-webkit-transition: all 0.25s ease;
 	-o-transition: all 0.25s ease;
@@ -2108,7 +2113,7 @@ ul {
 }
 
 .project-heading {
-	font-weight: 500;
+	font-weight: 900;
 	margin-bottom: 10px;
 	color: #000;
 }
@@ -2251,4 +2256,52 @@ span {
     text-align: right;
     font-weight: 600;
 }
+#skills {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between; /* Ensure space is distributed evenly */
+	gap: 20px;
+  }
   
+  .skill-card {
+	background: #f9bf3f;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	transition: transform 0.3s, box-shadow 0.3s;
+	flex: 1 1 calc(33.333% - 20px); /* Ensure three cards per row */
+	box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+  
+  .skill-card:hover {
+	transform: translateY(-10px);
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  #skills::before,
+   #skills::after {
+       content: none;
+   }
+  .skill-card .content {
+	padding: 20px;
+	text-align: center;
+  }
+  
+  .skill-card .stackName {
+	font-size: 14px;
+	font-weight: bold;
+	color: #333;
+	margin-bottom: 10px;
+  }
+  
+  .skill-card .skillSet {
+	font-size: 12px;
+	font-style: italic;
+	color: #666;
+  }
+  @media (max-width: 767px) {
+    .skill-card {
+        flex: 1 1 calc(100% - 20px); /* One card per row */
+    }
+	.github-card{margin-top: 20px;}
+}
