@@ -94,7 +94,7 @@ export const skills = [
   },
   {
     title: "codescan",
-    skillName: "Vulenrability Scanning",
+    skillName: "Vulnerability Scanning",
     skillSet:"OWASP ZAP",
     color: "5",
     percentage: "60",
@@ -105,7 +105,23 @@ export const projects = {
   disclaimer:
     "*** As for my work at the industry level, those projects are confidential and more details cannot be disclosed.",
  //carecloud projects
-    webProjects: [
+ applabProjects: [
+  { 
+    projectName: "Qatar News Agency, National Planning Counsil, Qatar Museums",
+    summary:
+      "AppLab is a leading company specialized in online platforms development. Online Platforms include Back-end, Databases, Web Applications and Mobile",
+    techStack: ["Azure Cloud", "Azure DevOps", "CICD-Automation", "Support", "Deployments"],
+  },
+  // {
+  //   projectName: "Resume Builder",
+  //   image: "images/resume-builder.png",
+  //   summary:
+  //     "Browser based editor to build and download Resumes in a customizable templates.",
+  //   preview: "https://vinaysomawat.github.io/Resume-Builder",
+  //   techStack: ["HTML", "Bootstrap", "JavaScript"],
+  // },
+],   
+ webProjects: [
     { 
       projectName: "TalkEHR, WebEHR, WebServices, RPM, TalkMD, MedSR, Global Portal, TalkPHR",
       summary:
@@ -151,19 +167,35 @@ export const projects = {
   //freelance projects
   androidProjects: [
     {
-      projectName: "Client 1",
+      projectName: "Upwork and Fiverr",
+      duration: "March 2022 - Current",
+      image: "images/remotework.png",
+      summary:
+        "> Upwork Projects: 17 Fiverr Projects: 12" ,
+      techStack: ["Azure Boards", "Issue Resolution ", "Support task", "CICD Pipelines", "Resume Creation ", "Project Development Fixation", "Git/Github tasks"],
+    },
+    {
+      projectName: "Project Manager at RRCG GmbH Germany",
+      duration: "March 2024 - Current",
+      image: "images/remotework.png",
+      summary:
+        "> Optimizing and Streamline the whole process, introducing sprints and dashboard to track the progress"  ,
+      techStack: ["Azure Boards", "Sprints Creation ", "Dashboards", "Process Optimization"],
+    },
+    {
+      projectName: "DevOps Support Job 1",
       duration: "March 2023 - May 2023",
       image: "images/remotework.png",
       summary:
-        "> Sprint Tickets Completion > App Service AutoScaling R&D and Implemetation > Azure DevOps integration with MS Team and Slack"  ,
+        "> Two hours daily support to US based client"  ,
       techStack: ["Azure DevOps", "Azure Application Insight", "R&D Task", "QA and Staging Deployments", "Documentation"],
     },
     {
-      projectName: "Client 2",
+      projectName: "DevOps Support Job 2",
       duration: "March 2023 - April 2023",
       image: "images/remotework.png",
       summary:
-        "Task Based.",
+        "Need based Support to Client from Portagul ",
   
       techStack: ["Azure DevOps", "YAML pipelines", "Proxy Deployments support", "Yaml customization"],
     },
@@ -198,19 +230,21 @@ export const projects = {
 
 
 export const experience = [
-  // {
-  //   title: "Freelance DevOps Engineer.",
-  //   duration: "March 2023 - Present",
-  //   subtitle: "DevOps Engineer",
-  //   details: [
-  //     "Currently working with Client remotely"
-  //   ],
-  //   tags: ["Azure DevOps", "Application Insight", "Yaml template", "R&D tasks", "QA & Staging Deployments"],
-  //   icon: "heartbeat",
-  // },
+  {
+    title: "Applab Qatar",
+    duration: "Feb 2024 - Current",
+    subtitle: "DevOps Engineer",
+    details: [
+      "Azure DevOps CICD (.Net, Function Apps)",
+      "Infrastructure/Resources Provisioning in Azure Cloud ",
+      "Vulnerability Scanning Reports via ZAP",
+    ],
+    tags: ["Azure DevOps CICD", "Azure Cloud", " ZAP" ],
+    icon: "qrcode",
+  },
   {
     title: "CareCloud.",
-    duration: "Sept 2022 - Current",
+    duration: "Sept 2022 - Feb 2024",
     subtitle: "DevOps Engineer",
     details: [
       "CICD (.Net)",

@@ -10,7 +10,7 @@ import {
   footer,
 } from "../db/db.js";
 
-const { disclaimer, webProjects, softwareProjects, androidProjects, freelanceProjects } =
+const { disclaimer, applabProjects, webProjects, softwareProjects, androidProjects, freelanceProjects } =
   projects;
 const { mediumURL } = URLs;
 
@@ -479,6 +479,7 @@ populateSkills(skills, "skills");
 
 fetchBlogsFromMedium(mediumURL);
 
+populateProjects(applabProjects, "applab-projects");
 populateProjects(webProjects, "web-projects");
 populateProjects(softwareProjects, "software-projects");
 populateProjects(androidProjects, "android-projects");
