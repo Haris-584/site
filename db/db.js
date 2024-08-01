@@ -8,15 +8,15 @@ export const bio = [
 export const skills = [
   {
     title: "Verison Control",
-    skillName: "VCS",
+    skillName: "Version Control",
     skillSet:"Git, Github, Azure Repos",
     color: "1",
     percentage: "80",
   },
   {
     title: "CICD",
-    skillName: "CICD",
-    skillSet:"Azure DevOps, Github Actions, Jenkins ",
+    skillName: "Azure DevOps",
+    skillSet:"CICD, Classic and YML pipelines, Agent Configuration, Dashboard Creation, Project Managment ",
     color: "6",
     percentage: "70",
   },
@@ -37,7 +37,7 @@ export const skills = [
   {
     title: "Azure",
     skillName: "Azure",
-    skillSet:"DevOps, VMs , App Monitor, App Service",
+    skillSet:"App Services, VMs , Azure Monitor, App Insights, Azure MI/ sql server, Storage Account, Private DNS and Endpoints, Function Apps etc",
     color: "3",
     percentage: "70",
   },
@@ -89,6 +89,13 @@ export const skills = [
     title: "codeanalysis",
     skillName: "Code Analysis",
     skillSet:"SonarQube",
+    color: "5",
+    percentage: "60",
+  },
+  {
+    title: "codescan",
+    skillName: "Vulenrability Scanning",
+    skillSet:"OWASP ZAP",
     color: "5",
     percentage: "60",
   },
